@@ -204,7 +204,7 @@ function render(data) {
     const info=document.createElement('div');info.className='candidate-info';
     const name=document.createElement('h3');name.textContent=nameOf(candidate);
     const party=document.createElement('span');party.className='candidate-party';party.textContent=candidate.party;
-    const tag=document.createElement('span');tag.className='fan-card-tag';tag.textContent='Sua torcida';info.append(name,party,tag);head.append(badge,info);
+    info.append(name,party);head.append(badge,info);
     const score=document.createElement('div');score.className='candidate-numbers';
     const value=document.createElement('strong');value.textContent=pct(candidate.percent);
     const votes=document.createElement('span');votes.textContent=`${fmt(candidate.votes)} votos`;score.append(value,votes);

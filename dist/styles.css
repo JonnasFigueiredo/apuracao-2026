@@ -67,14 +67,12 @@ select { min-width:0; width:100%; min-height:40px; padding:8px 30px 8px 11px; bo
 .candidate-info { min-width:0; }
 .candidate-info h3 { font-size:21px; letter-spacing:-.5px; overflow-wrap:anywhere; }
 .candidate-party { display:inline-block; font-size:11px; color:var(--muted); margin-top:4px; }
-.fan-card-tag { display:none; font-size:9px; margin-left:8px; text-transform:uppercase; letter-spacing:1px; color:var(--accent); }
 .candidate-numbers { display:flex; flex-wrap:wrap; align-items:baseline; gap:5px 14px; margin:17px 0 12px; font-variant-numeric:tabular-nums; }
 .candidate-numbers > strong { font-size:48px; letter-spacing:-2.2px; line-height:1.15; font-weight:600; }
 .candidate-numbers > span { color:var(--muted); font-size:12px; white-space:nowrap; }
 .bar { height:5px; border-radius:99px; background:var(--line); overflow:hidden; }
 .bar > span { display:block; height:100%; border-radius:99px; background:var(--candidate-color); transition:width .45s ease; }
 html[data-fan="lula"] .candidate[data-number="13"],html[data-fan="flavio"] .candidate[data-number="22"] { border-color:var(--accent); box-shadow:inset 0 3px var(--accent); }
-html[data-fan="lula"] .candidate[data-number="13"] .fan-card-tag,html[data-fan="flavio"] .candidate[data-number="22"] .fan-card-tag { display:inline; }
 .candidates:not(.expanded) .candidate.extra { display:none; }
 .show-candidates { margin-top:14px; border:0; padding:4px 0; color:var(--accent); background:none; font-size:11px; }
 .result-caption { display:flex; justify-content:space-between; flex-wrap:wrap; gap:7px 20px; font-size:10px; color:var(--quiet); margin:14px 0 20px; }
@@ -244,7 +242,6 @@ footer > span { margin-right:auto; }
   .candidate-number { position:absolute; top:13px; right:10px; height:21px; width:21px; font-size:10px; }
   .candidate-info h3 { font-size:15px; padding-right:21px; }
   .candidate-party { font-size:10px; }
-  .fan-card-tag { display:none !important; }
   .candidate-numbers { display:block; margin:6px 0 12px; }
   .candidate-numbers > strong { display:block; font-size:33px; letter-spacing:-1.6px; margin-bottom:4px; }
   .candidate-numbers > span { font-size:10px; }
