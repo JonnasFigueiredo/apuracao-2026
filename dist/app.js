@@ -82,7 +82,7 @@ function buildStateList() {
 }
 
 function stateDescription(state, entry) {
-  if (!entry?.result) return entry?.error ? 'Dados indisponíveis' : 'Consultando…';
+  if (!entry?.result) return entry?.error ? 'Dados indisponíveis' : roundBusy ? 'Consultando…' : 'Sem dados';
   const {kind,leader}=leadership(entry.result);
   return leader ? `${shortName(leader)} lidera${entry.stale ? ' · última parcial' : ''}` : kind==='tie' ? 'Empate na parcial' : 'Aguardando apuração';
 }
@@ -120,7 +120,7 @@ function updateStateViews() {
   }
   document.querySelectorAll('.state-group').forEach(group=>{group.hidden=![...group.querySelectorAll('.state-row')].some(row=>!row.hidden);});
   $('stateCount').textContent=`${visible} ${visible===1 ? 'UF' : 'UFs'}`;
-  if($('noStates')) { $('noStates').hidden=visible>0; $('noStates').textContent=query ? 'Nenhum estado encontrado.' : roundBusy ? 'Consultando lideranças…' : summary.available===summary.waiting ? 'Aguardando apuração nas UFs.' : 'Nenhuma UF com essa liderança na parcial.'; }
+  if($('noStates')) { $('noStates').hidden=visible>0; $('noStates').textContent=query ? 'Nenhum estado encontrado.' : roundBusy ? 'Consultando lideranças…' : !summary.available ? 'Dados estaduais indisponíveis.' : summary.available===summary.waiting ? 'Aguardando apuração nas UFs.' : 'Nenhuma UF com essa liderança na parcial.'; }
   const theme=fanModes[document.documentElement.dataset.fan];
   if(theme?.number) {
     const count=theme.number==='13' ? summary.lula : summary.flavio;
