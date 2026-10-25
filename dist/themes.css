@@ -1,0 +1,196 @@
+:root {
+  --page-bg: #101922;
+  --panel-bg: #192630;
+  --input-bg: #23323d;
+  --panel-line: #34444e;
+  --accent: #d6ef65;
+  --accent-hover: #e6fa91;
+  --accent-ink: #17221c;
+  --accent-dim: #71835d;
+  --accent-dark: #667e39;
+  --accent-halo: #d6ef6520;
+  --surface: #f3f3ed;
+  --card-bg: #ffffff;
+  --card-border: #e1e5df;
+  --favorite-line: #a0ba52;
+  --favorite-bar: #849e37;
+  --progress-bg: #d6ef65;
+  --progress-ink: #15232d;
+  --progress-muted: #52682a;
+  --progress-line: #a5c440;
+  --ring-track: #b8d954;
+  --ring-fill: #1a2b2c;
+  --map-fill: #3c5459;
+  --map-hover: #9bb869;
+  --map-stroke: #9cad9d;
+  --page-glow: transparent;
+  --banner-start: #344a30;
+  --banner-end: #192c28;
+}
+
+:root[data-fan="lula"] {
+  --page-bg: #1b1018;
+  --panel-bg: #2b1923;
+  --input-bg: #3a2530;
+  --panel-line: #54303f;
+  --accent: #ff929b;
+  --accent-hover: #ffb4bb;
+  --accent-ink: #481220;
+  --accent-dim: #9f5869;
+  --accent-dark: #a8233c;
+  --accent-halo: #ff929b22;
+  --surface: #fff2f2;
+  --card-bg: #fffcfc;
+  --card-border: #ecd8dd;
+  --favorite-line: #d63550;
+  --favorite-bar: #c52240;
+  --progress-bg: #ffc7ce;
+  --progress-ink: #481220;
+  --progress-muted: #854153;
+  --progress-line: #e49eab;
+  --ring-track: #e8a3b1;
+  --ring-fill: #941b39;
+  --map-fill: #68404f;
+  --map-hover: #ba657b;
+  --map-stroke: #b996a4;
+  --page-glow: #9c1c3829;
+  --banner-start: #bc1734;
+  --banner-end: #64122b;
+}
+
+:root[data-fan="flavio"] {
+  --page-bg: #0d201e;
+  --panel-bg: #16322f;
+  --input-bg: #23443d;
+  --panel-line: #34574e;
+  --accent: #f3d44e;
+  --accent-hover: #ffe77a;
+  --accent-ink: #183a2c;
+  --accent-dim: #7c8d4e;
+  --accent-dark: #466d32;
+  --accent-halo: #f3d44e22;
+  --surface: #f5f6e9;
+  --card-bg: #fffff9;
+  --card-border: #dce5d7;
+  --favorite-line: #3a8550;
+  --favorite-bar: #287b48;
+  --progress-bg: #f3d44e;
+  --progress-ink: #183a2c;
+  --progress-muted: #59622c;
+  --progress-line: #cab13e;
+  --ring-track: #d5ba40;
+  --ring-fill: #155b3b;
+  --map-fill: #376254;
+  --map-hover: #5e9b70;
+  --map-stroke: #9ab9a0;
+  --page-glow: #287e4a29;
+  --banner-start: #12623f;
+  --banner-end: #073927;
+}
+
+html { background: var(--page-bg); }
+body { background: radial-gradient(ellipse at 80% 8%, var(--page-glow), transparent 55%); }
+.topbar, .footnote { border-color: var(--panel-line); }
+.controls, .map-panel, .states-panel { background: var(--panel-bg); border-color: var(--panel-line); }
+select, .search-box { background: var(--input-bg); border-color: var(--panel-line); }
+.brand-mark, .brand-light, h1 em, .eyebrow, .edition small, .source-pill,
+.back-brasil, .map-overlay small, .state-group, .footnote-links a { color: var(--accent); }
+.source-pill, .back-brasil { border-color: var(--accent-dim); }
+.eyebrow-line { background: var(--accent-dim); }
+.live-dot, .status-dot:not(.error) { background: var(--accent); box-shadow: 0 0 0 4px var(--accent-halo); }
+.refresh-button { background: var(--accent); color: var(--accent-ink); }
+.refresh-button:hover { background: var(--accent-hover); }
+select:focus, button:focus-visible, a:focus-visible { outline-color: var(--accent); }
+.search-box:focus-within { border-color: var(--accent); }
+.results-panel { background: var(--surface); }
+.section-index { color: var(--accent-dark); }
+.explorer .section-index, .footnote .section-index, .fan-settings .section-index { color: var(--accent); }
+.candidate { background: var(--card-bg); border-color: var(--card-border); }
+.candidate.top { border-color: var(--favorite-line); }
+.bar > div { background: var(--favorite-bar); }
+.progress-panel, .ring-inner { background: var(--progress-bg); color: var(--progress-ink); }
+.progress-panel .section-index, .ring-inner span, .progress-caption span { color: var(--progress-muted); }
+.progress-separator { background: var(--progress-line); }
+.ring { background: conic-gradient(var(--ring-fill) var(--progress, 0%), var(--ring-track) var(--progress, 0%)); }
+.metric, .map-legend { border-color: var(--panel-line); }
+.map-state { fill: var(--map-fill); stroke: var(--map-stroke); }
+.map-state:hover, .map-state:focus { fill: var(--map-hover); stroke: var(--accent); }
+.map-state.selected { fill: var(--accent); stroke: var(--accent-hover); }
+.map-overlay { background: var(--page-bg); border-color: var(--panel-line); }
+.map-legend i, .state-row.selected { background: var(--accent); color: var(--accent-ink); }
+.state-row.selected strong { color: var(--accent-ink); }
+.state-row:hover, .state-row:focus-visible, .back-brasil:hover { background: var(--input-bg); }
+.state-row.selected:hover, .state-row.selected:focus-visible { background: var(--accent-hover); }
+.fan-card-tag { display: none; margin-top: 8px; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-dark); }
+html[data-fan="lula"] .candidate.top, html[data-fan="flavio"] .candidate.top { border-color: var(--card-border); }
+html[data-fan="lula"] .candidate[data-number="13"], html[data-fan="flavio"] .candidate[data-number="22"] { border-color: var(--favorite-line); box-shadow: inset 4px 0 var(--favorite-line); }
+html[data-fan="lula"] .candidate[data-number="13"] .fan-card-tag, html[data-fan="flavio"] .candidate[data-number="22"] .fan-card-tag { display: inline-block; }
+html[data-fan="lula"] .candidate[data-number="13"] .bar > div, html[data-fan="flavio"] .candidate[data-number="22"] .bar > div { background: var(--favorite-bar); }
+html[data-fan="lula"] .candidate:not([data-number="13"]) .bar > div, html[data-fan="flavio"] .candidate:not([data-number="22"]) .bar > div { background: #83929b; }
+
+.fan-settings { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 23px 26px; margin-bottom: 16px; border: 1px solid var(--panel-line); border-radius: 10px; background: var(--panel-bg); }
+.fan-settings-label h2 { font-size: 21px; letter-spacing: -.6px; margin-top: 5px; }
+.fan-settings-label p { font-size: 11px; line-height: 1.5; color: #b9bfc0; margin-top: 5px; }
+.fan-switch { display: flex; gap: 5px; padding: 5px; background: var(--page-bg); border: 1px solid var(--panel-line); border-radius: 9px; }
+.fan-option { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 15px; border: 0; border-radius: 5px; color: #dae1dc; background: transparent; cursor: pointer; font-size: 12px; font-weight: 700; white-space: nowrap; min-height: 44px; }
+.fan-option:hover { background: var(--input-bg); }
+.fan-option[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.fan-option small { opacity: .7; font-size: 10px; margin-left: 3px; }
+.fan-option-icon { font-size: 17px; }
+.lula-icon { color: #fa6d7a; }
+.flavio-icon { color: #eccf54; text-shadow: 0 1px 6px #3a9a55; }
+.fan-option[aria-pressed="true"] .fan-option-icon { color: currentColor; text-shadow: none; }
+.fan-banner { position: relative; display: flex; justify-content: space-between; align-items: center; overflow: hidden; min-height: 158px; border-radius: 10px; padding: 26px 34px; margin-bottom: 16px; background: linear-gradient(115deg, var(--banner-start), var(--banner-end)); border: 1px solid var(--accent-dim); }
+.fan-banner[hidden] { display: none; }
+.fan-banner-copy { position: relative; z-index: 1; }
+.fan-banner-copy > span { font-size: 9px; font-weight: 700; letter-spacing: 2px; color: #ffe9eb; }
+.fan-banner-copy > strong { display: block; font: 600 36px "Space Grotesk", sans-serif; letter-spacing: -1.3px; color: #fff8f5; margin: 8px 0; }
+.fan-banner-copy p { color: #f3e0e4; font-size: 12px; line-height: 1.5; max-width: 320px; }
+.fan-banner-art { width: 170px; flex: 0 0 170px; align-self: stretch; position: relative; display: grid; place-items: center; margin-left: 15px; }
+.fan-emblem { position: absolute; width: 160px; height: 160px; overflow: visible; }
+.fan-star { fill: #ffffff30; }
+.fan-flag { display: none; }
+.fan-banner-art > strong { position: relative; z-index: 1; font: 700 66px "Space Grotesk", sans-serif; letter-spacing: -4px; color: #fff9f5; }
+html[data-fan="flavio"] .fan-star { display: none; }
+html[data-fan="flavio"] .fan-flag { display: initial; }
+.fan-flag path { fill: #f3d44e; }
+.fan-flag circle { fill: #2555a1; }
+html[data-fan="flavio"] .fan-banner-copy > span { color: #f3d44e; }
+html[data-fan="flavio"] .fan-banner-copy p { color: #d3ecdd; }
+@media (max-width: 1100px) { .fan-settings { align-items: stretch; flex-direction: column; gap: 16px; } .fan-switch { align-self: flex-start; } }
+@media (max-width: 600px) {
+  .fan-settings { padding: 20px 15px; }
+  .fan-switch { align-self: stretch; gap: 3px; padding: 4px; }
+  .fan-option { flex: 1 1 0; min-width: 0; padding: 11px 7px; font-size: 11px; gap: 6px; white-space: normal; line-height: 1.4; }
+  .fan-option small { display: none; }
+  .fan-banner { padding: 22px 19px; min-height: 145px; }
+  .fan-banner-copy > strong { font-size: 29px; letter-spacing: -1px; }
+  .fan-banner-copy p { max-width: 220px; font-size: 11px; }
+  .fan-banner-art { flex-basis: 90px; width: 90px; margin-left: 5px; }
+  .fan-emblem { width: 114px; height: 114px; }
+  .fan-banner-art > strong { font-size: 47px; letter-spacing: -2px; }
+}
+.fan-banner-copy { min-width: 0; }
+.fan-option-icon { flex-shrink: 0; }
+select { width: 100%; min-width: 0; max-width: 100%; }
+.candidate-head > div { min-width: 0; }
+.candidate-name { overflow-wrap: anywhere; }
+.candidate-numbers { flex-wrap: wrap; row-gap: 4px; }
+.candidate-numbers > span { white-space: nowrap; }
+.panel-heading { flex-wrap: wrap; }
+.analytics-notice { padding: 0 0 28px; font-size: 11px; color: #9aabb1; }
+.analytics-notice[hidden] { display: none; }
+.analytics-notice summary { cursor: pointer; color: var(--accent); }
+.analytics-notice p { line-height: 1.6; max-width: 680px; margin-top: 10px; }
+.analytics-notice a { color: var(--accent); }
+@media (max-width: 900px) {
+  .controls { flex-wrap: wrap; }
+  .control-group { min-width: 0; flex: 1 1 220px; }
+  .refresh-button { min-height: 44px; margin-left: 0; }
+}
+@media (max-width: 700px) { .refresh-button { width: 100%; } }
+@media (max-width: 600px) { .control-group, .control-group:first-child { flex: 1 1 0; } }
+@media (max-width: 420px) { .control-group, .control-group:first-child { flex: 1 1 100%; } }
+@media (max-width: 360px) { .eyebrow { font-size: 9px; letter-spacing: 1.3px; gap: 7px; } .eyebrow-line { width: 16px; } }
+@media (max-width: 360px) { .fan-option { flex-direction: column; padding: 8px 4px; gap: 3px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }

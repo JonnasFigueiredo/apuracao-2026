@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101922">
+  <script>try { const mode = localStorage.getItem('voto2026.fanMode'); if (['lula', 'flavio'].includes(mode)) document.documentElement.dataset.fan = mode; } catch {}</script>
+  <meta name="description" content="Acompanhe a apuração presidencial de 2026 com dados oficiais do TSE, atualizados automaticamente.">
+  <title>Apuração 2026 · Dados oficiais do TSE</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="themes.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">◉</span><span>VOTO<span class="brand-light">/</span>2026</span></div>
+      <div class="top-right"><span class="source-pill">DADOS OFICIAIS · TSE</span><span id="clock" class="clock"></span></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="eyebrow"><span class="live-dot"></span> ELEIÇÕES GERAIS 2026 <span class="eyebrow-line"></span> BRASIL</div>
+        <div class="intro-row">
+          <div><h1>Apuração <em>ao vivo.</em></h1><p class="subtitle">Acompanhe a contagem oficial dos votos para presidente da República.</p></div>
+          <div class="edition"><span>ELEIÇÃO PRESIDENCIAL</span><strong id="turnLabel">2º TURNO</strong><small>25 OUT 2026</small></div>
+        </div>
+      </section>
+
+      <section class="fan-settings" aria-label="Modo torcida">
+        <div class="fan-settings-label"><span class="section-index">DO SEU JEITO</span><h2>Modo torcida</h2><p id="themeStatus" aria-live="polite">Escolha as cores da sua noite de apuração.</p></div>
+        <div class="fan-switch" role="group" aria-label="Escolher modo de torcida">
+          <button type="button" class="fan-option" data-fan-mode="neutral" aria-pressed="true"><span class="fan-option-icon" aria-hidden="true">◎</span><span>Neutro</span></button>
+          <button type="button" class="fan-option" data-fan-mode="lula" aria-pressed="false"><span class="fan-option-icon lula-icon" aria-hidden="true">★</span><span>Lula <small>13</small></span></button>
+          <button type="button" class="fan-option" data-fan-mode="flavio" aria-pressed="false"><span class="fan-option-icon flavio-icon" aria-hidden="true">◆</span><span>Flávio Bolsonaro <small>22</small></span></button>
+        </div>
+      </section>
+      <section id="fanBanner" class="fan-banner" aria-label="Torcida selecionada" hidden>
+        <div class="fan-banner-copy"><span>MODO TORCIDA ATIVADO</span><strong id="fanName"></strong><p>Seu candidato em destaque. Acompanhe cada nova parcial.</p></div>
+        <div class="fan-banner-art" aria-hidden="true"><svg class="fan-emblem" viewBox="0 0 160 160"><path class="fan-star" d="M80 4 98.81 54.11 152.28 56.51 110.43 89.89 124.67 141.49 80 112 35.33 141.49 49.57 89.89 7.72 56.51 61.19 54.11Z"/><g class="fan-flag"><path d="M80 0 160 80 80 160 0 80Z"/><circle cx="80" cy="80" r="46"/></g></svg><strong id="fanNumber"></strong></div>
+      </section>
+
+      <section class="controls" aria-label="Configurações do painel">
+        <div class="control-group"><label for="turn">TURNO</label><select id="turn"><option value="2">2º turno · 25/10</option><option value="1">1º turno · 04/10</option></select></div>
+        <div class="control-group"><label for="region">ABRANGÊNCIA</label><select id="region"><option value="br">Brasil</option></select></div>
+        <button id="refresh" class="refresh-button" type="button" aria-label="Atualizar agora"><span class="refresh-icon">↻</span> Atualizar agora</button>
+      </section>
+
+      <section class="status-row" aria-live="polite"><div class="status-left"><span id="statusDot" class="status-dot loading"></span><strong id="status">Conectando ao TSE…</strong><span id="updated" class="muted"></span></div><div id="countdown" class="muted">Atualização automática a cada 15 s</div></section>
+
+      <section class="explorer" aria-label="Explore os resultados por estado">
+        <div class="map-panel">
+          <div class="explorer-heading"><div><span class="section-index">01 / TERRITÓRIO</span><h2>O voto pelo Brasil</h2><p>Selecione um estado no mapa ou na lista para ver sua apuração.</p></div><button id="resetRegion" class="back-brasil" type="button">◎ Ver Brasil</button></div>
+          <div class="map-frame"><svg id="brazilMap" viewBox="0 0 650 580" role="group" aria-label="Mapa interativo dos estados do Brasil"></svg><div class="map-overlay"><span>ABRANGÊNCIA SELECIONADA</span><strong id="mapSelection">Brasil</strong><small id="mapSelectionHint">Resultado nacional</small></div></div>
+          <div class="map-legend"><span><i></i> Estado selecionado</span><span>Malha geográfica: IBGE</span></div>
+        </div>
+        <div class="states-panel"><div class="states-head"><div><span class="section-index">27 UNIDADES FEDERATIVAS</span><h2>Estados</h2></div><span id="stateCount" class="state-count">27</span></div><label class="search-box" for="stateSearch"><span aria-hidden="true">⌕</span><input id="stateSearch" type="search" aria-label="Buscar estado ou sigla" placeholder="Buscar estado ou sigla" autocomplete="off"></label><div id="stateList" class="state-list" role="group" aria-label="Selecionar estado"></div></div>
+      </section>
+
+      <section class="main-grid">
+        <div class="results-panel">
+          <div class="panel-heading"><div><span class="section-index">02 / RESULTADO <span id="resultPlace">· BRASIL</span></span><h2>Presidente da República</h2></div><span id="resultState" class="outline-badge">AGUARDANDO DADOS</span></div>
+          <div id="candidates" class="candidates"><div class="skeleton-card"></div><div class="skeleton-card"></div></div>
+          <div id="resultNote" class="result-note">Percentuais calculados sobre votos válidos, conforme divulgados pelo TSE. A parcial pode mudar até o fim da totalização.</div>
+        </div>
+        <aside class="progress-panel">
+          <span class="section-index">03 / TOTALIZAÇÃO</span><h2>O avanço da apuração</h2>
+          <div class="progress-center"><div class="ring" id="ring"><div class="ring-inner"><strong id="progressValue">—</strong><span>das seções</span></div></div></div>
+          <div class="progress-caption"><strong id="sectionsCount">—</strong><span>seções totalizadas</span></div>
+          <div class="progress-separator"></div>
+          <div class="stat-row"><span>Seções pendentes</span><strong id="pendingSections">—</strong></div>
+          <div class="stat-row"><span>Total de seções</span><strong id="totalSections">—</strong></div>
+        </aside>
+      </section>
+
+      <section class="metrics" aria-label="Resumo dos votos"><div class="metric"><span>VOTOS VÁLIDOS</span><strong id="validVotes">—</strong><small id="validVotesNote">aguardando dados</small></div><div class="metric"><span>VOTOS BRANCOS</span><strong id="blankVotes">—</strong><small id="blankPercent">—</small></div><div class="metric"><span>VOTOS NULOS</span><strong id="nullVotes">—</strong><small id="nullPercent">—</small></div><div class="metric"><span>COMPARECIMENTO</span><strong id="turnout">—</strong><small id="turnoutPercent">—</small></div></section>
+
+      <section class="footnote"><div><span class="section-index">TRANSPARÊNCIA</span><h3>Da fonte oficial para a sua tela.</h3><p>Os números vêm diretamente dos arquivos JSON de divulgação do Tribunal Superior Eleitoral. Esta página consulta a fonte selecionada a cada 15 segundos enquanto está aberta. O horário de totalização é informado pelo próprio TSE; se não houver uma nova parcial, os números permanecem iguais. O desenho do mapa usa a malha simplificada do IBGE.</p></div><div class="footnote-links"><a id="rawLink" href="https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json" target="_blank" rel="noopener noreferrer">Ver arquivo original <span>↗</span></a><a href="https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados" target="_blank" rel="noopener noreferrer">Documentação do TSE <span>↗</span></a><a href="https://servicodados.ibge.gov.br/api/docs/malhas?versao=3" target="_blank" rel="noopener noreferrer">Malhas do IBGE <span>↗</span></a></div></section>
+    </main>
+    <footer><span>VOTO/2026 · Painel independente com dados oficiais</span><span>Horário de Brasília (UTC−3)</span></footer>
+    <details id="analyticsNotice" class="analytics-notice" hidden><summary>Estatísticas de acesso</summary><p>Usamos GoatCounter para medir visitas, dispositivos, origem dos acessos e uso dos controles de apuração. A escolha de torcida fica salva neste navegador. <a href="https://www.goatcounter.com/help/privacy" target="_blank" rel="noopener noreferrer">Privacidade do GoatCounter ↗</a></p></details>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
