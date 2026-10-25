@@ -26,11 +26,11 @@ Abra `http://localhost:8765` no navegador. Para usar outra porta, defina a vari�
 
 ## Publicação
 
-O conteúdo de `dist/` é um site estático. Publique essa pasta em qualquer hospedagem de arquivos estáticos. O navegador precisa ter acesso a `https://resultados.tse.jus.br`; o TSE pode alterar regras de disponibilidade, CORS ou a estrutura dos arquivos no futuro.
+Execute `npm run build` e publique a pasta gerada `site/` em uma hospedagem estática. O build inclui uma versão nas URLs dos estilos e módulos para evitar misturar arquivos de publicações diferentes. O navegador precisa ter acesso a `https://resultados.tse.jus.br`.
 
 ### GitHub Pages
 
-O workflow `.github/workflows/pages.yml` testa o projeto e publica apenas `dist/` após um push na branch `main`. No repositório, selecione **Settings → Pages → Source → GitHub Actions**. Uma falha nos testes impede a publicação. Os arquivos usam caminhos relativos, compatíveis com sites de projeto como `https://usuario.github.io/apuracao-2026/`.
+O workflow `.github/workflows/pages.yml` testa o projeto, gera `site/` e publica essa pasta após um push na branch `main`. No repositório, selecione **Settings → Pages → Source → GitHub Actions**. Uma falha nos testes impede a publicação. Os caminhos relativos são compatíveis com sites como `https://usuario.github.io/apuracao-2026/`.
 
 ## Métricas de acesso com GoatCounter
 
