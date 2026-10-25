@@ -1,0 +1,62 @@
+name: Conferir painel e dados do TSE
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Publicar painel no GitHub Pages']
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monitor-apuracao
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    outputs:
+      complete: ${{ steps.check.outputs.complete }}
+    env:
+      MONITOR_SITE_URL: https://jonnasfigueiredo.github.io/apuracao-2026/
+      MONITOR_TURN: '2'
+      MONITOR_FRESH_FROM: '2026-10-25T17:00:00-03:00'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Instalar dependências isoladas do monitor
+        run: npm ci --prefix scripts/monitor --ignore-scripts --no-audit --no-fund
+      - name: Instalar navegador de verificação
+        run: npx --prefix scripts/monitor playwright install --with-deps chromium
+      - name: Conferir site publicado e fonte oficial
+        id: check
+        run: npm run monitor
+      - name: Guardar relatório da execução
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: verificacao-apuracao-${{ github.run_id }}-${{ github.run_attempt }}
+          path: monitor-results/
+          retention-days: 7
+          if-no-files-found: warn
+
+  finish:
+    needs: monitor
+    if: needs.monitor.outputs.complete == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions:
+      actions: write
+    steps:
+      - name: Encerrar monitoramento após conclusão oficial
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow disable monitor.yml --repo "$GITHUB_REPOSITORY"

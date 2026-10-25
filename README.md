@@ -30,6 +30,10 @@ scripts/       Servidor local (dev.mjs) e build estático (build.mjs)
 test/          Testes automatizados (node:test)
 ```
 
+## Monitoramento automático
+
+O [monitor no GitHub Actions](https://github.com/JonnasFigueiredo/apuracao-2026/actions/workflows/monitor.yml) confere o site publicado com os arquivos oficiais do TSE aproximadamente a cada 15 minutos, incluindo atualização automática, votos, percentuais, abstenção e as 27 UFs. Não usa IA nem depende do computador ligado. Ele se desativa após o resultado oficial final e uma conferência sem divergências. Relatórios e configuração dos avisos estão em [Monitoramento](docs/monitoramento.md).
+
 ## Fonte dos dados
 
 Os dados são consultados diretamente dos arquivos JSON oficiais do [TSE (formato EA20)](https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados), e a malha geográfica utiliza dados do [IBGE](https://servicodados.ibge.gov.br/api/docs/malhas?versao=3). Projeto independente, sem vínculo com a Justiça Eleitoral.
