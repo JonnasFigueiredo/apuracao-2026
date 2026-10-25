@@ -35,6 +35,8 @@ export function parseResult(data) {
     nullPercent: toNumber(data.v.ptvnn ?? data.v.ptvn),
     turnout: toNumber(data.e?.c ?? data.v.tv),
     turnoutPercent: data.e?.pc === undefined ? null : toNumber(data.e.pcn ?? data.e.pc),
+    abstention: toNumber(data.e?.a),
+    abstentionPercent: data.e?.pa === undefined ? null : toNumber(data.e.pan ?? data.e.pa),
     date: data.dt || data.dg || '—',
     time: data.ht || data.hg || '—',
     final: data.and === 'f',

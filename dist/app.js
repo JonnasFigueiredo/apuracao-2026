@@ -52,7 +52,7 @@ function setRegion(region) {
   $('resultState').textContent = 'Carregando';
   $('margin').textContent = '';
   $('validVotesNote').textContent = '';
-  for (const id of ['apurationPercent','progressValue','sectionsCount','pendingSections','totalSections','validVotes','blankVotes','blankPercent','nullVotes','nullPercent','turnout','turnoutPercent']) $(id).textContent = '—';
+  for (const id of ['apurationPercent','progressValue','sectionsCount','pendingSections','totalSections','validVotes','blankVotes','blankPercent','nullVotes','nullPercent','turnout','turnoutPercent','abstention','abstentionPercent']) $(id).textContent = '—';
   $('ring').style.setProperty('--progress','0%');
   $('ring').setAttribute('aria-valuenow','0');
   $('updated').textContent = '';
@@ -212,9 +212,9 @@ function render(data) {
   }));
   $('showAllCandidates').hidden=result.candidates.length<=2;$('showAllCandidates').textContent=$('candidates').classList.contains('expanded')?'Mostrar só os dois primeiros':`Ver outros ${result.candidates.length-2} candidatos`;
   $('apurationPercent').textContent=pct(result.progress);$('progressValue').textContent=pct(result.progress);$('ring').style.setProperty('--progress',`${result.progress}%`);$('ring').setAttribute('aria-valuenow',result.progress.toFixed(2));
-  for(const [id,value] of Object.entries({sectionsCount:result.processed,totalSections:result.total,pendingSections:result.pending,validVotes:result.validVotes,blankVotes:result.blankVotes,nullVotes:result.nullVotes,turnout:result.turnout})) $(id).textContent=fmt(value);
+  for(const [id,value] of Object.entries({sectionsCount:result.processed,totalSections:result.total,pendingSections:result.pending,validVotes:result.validVotes,blankVotes:result.blankVotes,nullVotes:result.nullVotes,turnout:result.turnout,abstention:result.abstention})) $(id).textContent=fmt(value);
   $('validVotesNote').textContent=result.final?'Final':result.processed?'Parcial':'Aguardando';
-  $('blankPercent').textContent=pct(result.blankPercent);$('nullPercent').textContent=pct(result.nullPercent);$('turnoutPercent').textContent=result.turnoutPercent===null?'':`${pct(result.turnoutPercent)} do eleitorado apurado`;
+  $('blankPercent').textContent=pct(result.blankPercent);$('nullPercent').textContent=pct(result.nullPercent);$('turnoutPercent').textContent=result.turnoutPercent===null?'':`${pct(result.turnoutPercent)} do eleitorado apurado`;$('abstentionPercent').textContent=result.abstentionPercent===null?'':`${pct(result.abstentionPercent)} do eleitorado apurado`;
   $('updated').textContent=`TSE ${result.date} · ${result.time}`;
   $('resultState').textContent=result.processed===0?'Aguardando apuração':result.final?'Final':'Parcial';
   $('resultNote').textContent='Percentuais sobre os votos válidos.';

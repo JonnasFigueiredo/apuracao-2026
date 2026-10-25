@@ -84,7 +84,7 @@ html[data-fan="lula"] .candidate[data-number="13"] .fan-card-tag,html[data-fan="
 #progressValue { font-size:16px; color:var(--text); margin-right:4px; }
 .progress-heading > span:last-child { font-size:10px; white-space:nowrap; }
 .progress-track { height:4px; border-radius:8px; background:linear-gradient(to right,var(--accent) 0 var(--progress,0%),var(--line) var(--progress,0%) 100%); }
-.metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:15px; border-top:1px solid var(--line); padding-top:17px; }
+.metrics { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:15px; border-top:1px solid var(--line); padding-top:17px; }
 .metric { display:flex; flex-direction:column; gap:4px; }
 .metric > span { font-size:10px; color:var(--muted); }
 .metric > strong { font-size:19px; letter-spacing:-.4px; font-weight:500; font-variant-numeric:tabular-nums; }

@@ -11,7 +11,7 @@ function fixture() {
     ] }] }] }],
     s: { ts: '10', st: '2', snt: '8' },
     v: { vv: '100', vb: '2', pvb: '1,75', vn: '10', vnt: '2', tvn: '12', ptvn: '10,53', tv: '114' },
-    e: { c: '114', pc: '80,50' }
+    e: { c: '114', pc: '80,50', a: '28', pa: '19,50' }
   };
 }
 
@@ -27,6 +27,8 @@ test('votos nulos incluem nulos técnicos, conforme o campo tvn do EA20', () => 
   assert.equal(result.nullVotes, 12);
   assert.equal(result.nullPercent, 10.53);
   assert.equal(result.turnout, 114);
+  assert.equal(result.abstention, 28);
+  assert.equal(result.abstentionPercent, 19.5);
 });
 
 test('usa vn mais vnt quando o total de nulos não estiver disponível', () => {
