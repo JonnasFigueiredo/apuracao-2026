@@ -34,6 +34,10 @@ test/          Testes automatizados (node:test)
 
 O [monitor no GitHub Actions](https://github.com/JonnasFigueiredo/apuracao-2026/actions/workflows/monitor.yml) confere o site publicado com os arquivos oficiais do TSE aproximadamente a cada 15 minutos, incluindo atualização automática, votos, percentuais, abstenção e as 27 UFs. Não usa IA nem depende do computador ligado. Ele se desativa após o resultado oficial final e uma conferência sem divergências. Relatórios e configuração dos avisos estão em [Monitoramento](docs/monitoramento.md).
 
+## Conclusão do projeto
+
+O [estudo final dos dois turnos](https://jonnasfigueiredo.github.io/apuracao-2026/relatorio/) será publicado automaticamente após a totalização oficial e a conciliação das 27 UFs, exterior e Brasil. Compara votos, ganhos líquidos, participação e variações territoriais, com exportação em Markdown, CSV e JSON e preservação das fontes. [Metodologia e reprodução](docs/estudo-final.md).
+
 ## Fonte dos dados
 
 Os dados são consultados diretamente dos arquivos JSON oficiais do [TSE (formato EA20)](https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados), e a malha geográfica utiliza dados do [IBGE](https://servicodados.ibge.gov.br/api/docs/malhas?versao=3). Projeto independente, sem vínculo com a Justiça Eleitoral.

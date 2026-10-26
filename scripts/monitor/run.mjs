@@ -111,7 +111,7 @@ try {
     `## Monitor da apuração: ${report.status === 'ok' ? 'OK' : 'FALHA'}`,
     `Site: ${site}`, `Arquivos oficiais conferidos: ${official.size}/28.`,
     `Nova consulta automática observada: ${report.automaticRefresh ? 'sim' : 'não'}.`,
-    `Apuração oficialmente concluída e conferida: ${report.complete ? 'sim; o workflow será desativado automaticamente' : 'não; monitoramento continua'}.`,
+    `Apuração oficialmente concluída e conferida: ${report.complete ? 'sim; o estudo final será validado e publicado antes do encerramento automático' : 'não; monitoramento continua'}.`,
     main ? `Parcial nacional: ${main.updated}. Seções: ${main.processed}/${main.total}.` : 'Parcial nacional indisponível.',
     'Conferência inclui votos, percentuais, urnas, comparecimento, abstenção e lideranças de todas as UFs.',
     ...report.errors.map(error => `\nErro: ${error.replaceAll('\n',' ')}`),

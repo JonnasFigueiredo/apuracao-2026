@@ -48,15 +48,74 @@ jobs:
           retention-days: 7
           if-no-files-found: warn
 
-  finish:
+  study:
     needs: monitor
     if: needs.monitor.outputs.complete == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      pages: read
+    outputs:
+      ready: ${{ steps.study.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm test
+      - name: Gerar estudo apenas com fontes finais conciliadas
+        id: study
+        run: npm run report
+      - name: Preservar fontes e conclusão no repositório
+        if: steps.study.outputs.ready == 'true'
+        run: |
+          git config user.name 'Jonnas Figueiredo'
+          git config user.email '125215987+JonnasFigueiredo@users.noreply.github.com'
+          git add -- dist/relatorio
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publica estudo final dos dois turnos de 2026'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.study.outputs.ready == 'true'
+      - name: Construir painel com o estudo final
+        if: steps.study.outputs.ready == 'true'
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.study.outputs.ready == 'true'
+        with:
+          path: site
+
+  publish-study:
+    needs: study
+    if: needs.study.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+
+  finish:
+    needs: [monitor, study, publish-study]
+    if: needs.study.outputs.ready == 'true' && needs.publish-study.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 2
     permissions:
       actions: write
     steps:
-      - name: Encerrar monitoramento após conclusão oficial
+      - name: Encerrar monitoramento após publicar a conclusão do projeto
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow disable monitor.yml --repo "$GITHUB_REPOSITORY"
