@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "status": "final",
+  "capturedAt": "2026-10-26T05:17:44.434Z",
+  "sources": [
+    {
+      "turn": "1",
+      "scope": "br",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+      "path": "fontes/1/br.json",
+      "sha256": "2866703eb4fc0ad6f17f0e081a00ab1175490b0786325e700cff1d8b40d25bca",
+      "retrievedAt": "2026-10-26T05:17:21.909Z",
+      "id": "2837531",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ro",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ro/ro-c0001-e006257-u.json",
+      "path": "fontes/1/ro.json",
+      "sha256": "c696369d5397d28e78c8313e5dd767728e995825bb053f1035b83f2688e68c31",
+      "retrievedAt": "2026-10-26T05:17:22.682Z",
+      "id": "2833766",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ac",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ac/ac-c0001-e006257-u.json",
+      "path": "fontes/1/ac.json",
+      "sha256": "c67559bc6e31b503162fcdd74604f00ce877efc4b90d7fdea8b48a0e634b4b0e",
+      "retrievedAt": "2026-10-26T05:17:23.064Z",
+      "id": "2837527",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "am",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/am/am-c0001-e006257-u.json",
+      "path": "fontes/1/am.json",
+      "sha256": "8cbbec68324aec9f02df666154d47b2ee00f8c6380a099c7442721adf45214e7",
+      "retrievedAt": "2026-10-26T05:17:23.460Z",
+      "id": "2839170",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rr/rr-c0001-e006257-u.json",
+      "path": "fontes/1/rr.json",
+      "sha256": "9bf774caceab5460c906ca3120dfbe72039b92bd852d21fc77e6a728253e0218",
+      "retrievedAt": "2026-10-26T05:17:23.847Z",
+      "id": "2838602",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pa",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pa/pa-c0001-e006257-u.json",
+      "path": "fontes/1/pa.json",
+      "sha256": "669dbc9548fb9a1f8ebb47a656234364c4aa18eb69c15f7b80634d16e23c2989",
+      "retrievedAt": "2026-10-26T05:17:24.232Z",
+      "id": "2838608",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ap",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ap/ap-c0001-e006257-u.json",
+      "path": "fontes/1/ap.json",
+      "sha256": "42c0d70f1abefdc5e5c5f75f4d341a66c373b34863685f22bc31aa742ec6a062",
+      "retrievedAt": "2026-10-26T05:17:24.625Z",
+      "id": "2837524",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "to",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/to/to-c0001-e006257-u.json",
+      "path": "fontes/1/to.json",
+      "sha256": "76150bdef9fdbf557decc1d7e073b1fa361849316bb6cce5b8f6208ac48cdbd5",
+      "retrievedAt": "2026-10-26T05:17:25.015Z",
+      "id": "2833769",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ma",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ma/ma-c0001-e006257-u.json",
+      "path": "fontes/1/ma.json",
+      "sha256": "22daf14542c35a384967da16c71ca02b5292b5703d4ef09357dc1a1a65b9a41d",
+      "retrievedAt": "2026-10-26T05:17:25.410Z",
+      "id": "2835812",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pi",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pi/pi-c0001-e006257-u.json",
+      "path": "fontes/1/pi.json",
+      "sha256": "d6dac2da5cbff871ab4c323beae7df6902ccb6e9c7a6b38e17518b2eac8842a2",
+      "retrievedAt": "2026-10-26T05:17:25.812Z",
+      "id": "2839174",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ce",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ce/ce-c0001-e006257-u.json",
+      "path": "fontes/1/ce.json",
+      "sha256": "ff65f98d1f1462c8230a2856f6c0e46ee7fb2a8f8ac7f1bf60979c6b1eea5f07",
+      "retrievedAt": "2026-10-26T05:17:26.204Z",
+      "id": "2835000",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rn",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rn/rn-c0001-e006257-u.json",
+      "path": "fontes/1/rn.json",
+      "sha256": "87e559952a7a66a7592b8a9617e53af7e5748ee73d7802807e8e5a05e33df7f4",
+      "retrievedAt": "2026-10-26T05:17:26.593Z",
+      "id": "2835810",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pb",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pb/pb-c0001-e006257-u.json",
+      "path": "fontes/1/pb.json",
+      "sha256": "7da03ae14bac3cf830d723ef04a02d5f830dc696ca9480647e76f1e146648e00",
+      "retrievedAt": "2026-10-26T05:17:26.979Z",
+      "id": "2833770",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pe",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pe/pe-c0001-e006257-u.json",
+      "path": "fontes/1/pe.json",
+      "sha256": "a18f9e0ec8f7073b3a9ff932321ae8592d3a906b875a33e080c2abb2444510bf",
+      "retrievedAt": "2026-10-26T05:17:27.371Z",
+      "id": "2839173",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "al",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/al/al-c0001-e006257-u.json",
+      "path": "fontes/1/al.json",
+      "sha256": "96e234bc2a91d872d54a9951fbd60dce9b54ad0dc1fe347e322d89d25be187d4",
+      "retrievedAt": "2026-10-26T05:17:27.755Z",
+      "id": "2835807",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "se",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/se/se-c0001-e006257-u.json",
+      "path": "fontes/1/se.json",
+      "sha256": "c163da0f27c4b0bbdcc34359c87b88607d5823573c813d5835afff339340be77",
+      "retrievedAt": "2026-10-26T05:17:28.144Z",
+      "id": "2837528",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ba",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ba/ba-c0001-e006257-u.json",
+      "path": "fontes/1/ba.json",
+      "sha256": "b50778a7cb0f9763994873ea045e95da1ee962577675dfcb99786f2853208415",
+      "retrievedAt": "2026-10-26T05:17:28.529Z",
+      "id": "2837532",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "mg",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/mg/mg-c0001-e006257-u.json",
+      "path": "fontes/1/mg.json",
+      "sha256": "d01c373751e029fdba347cce9f367679707bfb897f3942b3e233a273b87db199",
+      "retrievedAt": "2026-10-26T05:17:28.918Z",
+      "id": "2838611",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "es",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/es/es-c0001-e006257-u.json",
+      "path": "fontes/1/es.json",
+      "sha256": "9e8036ad95dfc1fa119b26164bba9201fa6562c007418c773f13e7f5b6fe319d",
+      "retrievedAt": "2026-10-26T05:17:29.308Z",
+      "id": "2839171",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rj",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rj/rj-c0001-e006257-u.json",
+      "path": "fontes/1/rj.json",
+      "sha256": "8a67b766e614b72140c0f6e026a097e4b20098f0c66cd528bb6a7aed194fda6a",
+      "retrievedAt": "2026-10-26T05:17:29.699Z",
+      "id": "2835811",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "sp",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/sp/sp-c0001-e006257-u.json",
+      "path": "fontes/1/sp.json",
+      "sha256": "6e417d16de88b97e27abffc58f404e753ee73a34142da0bb266821d903e67c68",
+      "retrievedAt": "2026-10-26T05:17:30.087Z",
+      "id": "2837533",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pr/pr-c0001-e006257-u.json",
+      "path": "fontes/1/pr.json",
+      "sha256": "d54aff50901472503eece5aabdce59518e67fd57cb7e7337b81132f995d72d02",
+      "retrievedAt": "2026-10-26T05:17:30.479Z",
+      "id": "2833772",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "sc",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/sc/sc-c0001-e006257-u.json",
+      "path": "fontes/1/sc.json",
+      "sha256": "b51645c4cf68c1fe4761acdafd1214325c259661eb6522b286b97ab1b1d13381",
+      "retrievedAt": "2026-10-26T05:17:30.879Z",
+      "id": "2836295",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rs",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rs/rs-c0001-e006257-u.json",
+      "path": "fontes/1/rs.json",
+      "sha256": "7a56c5d75aa8a0aa75127e72814a7cbbbf9876b96f1d77a0c3154b95fd43371c",
+      "retrievedAt": "2026-10-26T05:17:31.266Z",
+      "id": "2836296",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ms",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ms/ms-c0001-e006257-u.json",
+      "path": "fontes/1/ms.json",
+      "sha256": "35a5e50df19afeea34928eb3810f53cbcd122730c27d4d2fb2a52cdbd3ae6b19",
+      "retrievedAt": "2026-10-26T05:17:31.650Z",
+      "id": "2837529",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "mt",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/mt/mt-c0001-e006257-u.json",
+      "path": "fontes/1/mt.json",
+      "sha256": "0e7250b701d2889ba864082682e5ff5e14593bbac0a978c7d1ee88e6b42e285e",
+      "retrievedAt": "2026-10-26T05:17:32.043Z",
+      "id": "2832694",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "go",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/go/go-c0001-e006257-u.json",
+      "path": "fontes/1/go.json",
+      "sha256": "0bca25dc783c2b3c711f0cfe7432fe9e10d78d5ef8449c6d1368740bbe2dc1d6",
+      "retrievedAt": "2026-10-26T05:17:32.438Z",
+      "id": "2832695",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "df",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/df/df-c0001-e006257-u.json",
+      "path": "fontes/1/df.json",
+      "sha256": "6fa13cd7f0b3024777891dbe94723e7e39ecbba76bdc702e9f81428826a7283a",
+      "retrievedAt": "2026-10-26T05:17:32.824Z",
+      "id": "2834997",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "zz",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/zz/zz-c0001-e006257-u.json",
+      "path": "fontes/1/zz.json",
+      "sha256": "9e8c762a6fdf924b46836cc246c8a32a41ec7f8f60ba2b1905cc8bd4a33dec03",
+      "retrievedAt": "2026-10-26T05:17:33.209Z",
+      "id": "3946982",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "2",
+      "scope": "br",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+      "path": "fontes/2/br.json",
+      "sha256": "67fae708b0c7977fc9847d36100c63313621bff971178c48f2da99969707c263",
+      "retrievedAt": "2026-10-26T05:17:22.295Z",
+      "id": "4241309",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ro",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.json",
+      "path": "fontes/2/ro.json",
+      "sha256": "63e07e2b7218c7355acab9bdae18a0cef8dded2148f73485cd490b0fa0c2ec29",
+      "retrievedAt": "2026-10-26T05:17:33.600Z",
+      "id": "4244125",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ac",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.json",
+      "path": "fontes/2/ac.json",
+      "sha256": "c70137f47f4003b9af57f6669fac400138563e2cd61410d6d5064aff3ac50225",
+      "retrievedAt": "2026-10-26T05:17:33.984Z",
+      "id": "4242890",
+      "updated": "25/10/2026 · 21:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "am",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.json",
+      "path": "fontes/2/am.json",
+      "sha256": "601a662e37dc60f39bf47b2061d6bccef2b6d936e1225507f30b2c74751f9f8e",
+      "retrievedAt": "2026-10-26T05:17:34.380Z",
+      "id": "4241303",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.json",
+      "path": "fontes/2/rr.json",
+      "sha256": "ea50faa6f34d7abca08c86ccaedfaf2cdd9b07a9c1ace6353f7bd2148e9e8fde",
+      "retrievedAt": "2026-10-26T05:17:34.770Z",
+      "id": "4241245",
+      "updated": "25/10/2026 · 20:12:18"
+    },
+    {
+      "turn": "2",
+      "scope": "pa",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.json",
+      "path": "fontes/2/pa.json",
+      "sha256": "36ea55088a8aa102520b062ddf39490f3800406d33fceb301ea138b6fdd0c58a",
+      "retrievedAt": "2026-10-26T05:17:35.155Z",
+      "id": "4245983",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ap",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.json",
+      "path": "fontes/2/ap.json",
+      "sha256": "135f0658833ebc7cc65170a2d4b245b71e0308fad5488e0e9ba86929260a43cc",
+      "retrievedAt": "2026-10-26T05:17:35.537Z",
+      "id": "4246820",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "to",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.json",
+      "path": "fontes/2/to.json",
+      "sha256": "fb9b8da8cd5fd57ff7172a8a741e35da90c7521e0d37533605db84d39ebd0535",
+      "retrievedAt": "2026-10-26T05:17:35.923Z",
+      "id": "4237130",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ma",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.json",
+      "path": "fontes/2/ma.json",
+      "sha256": "c53e1dd219b2bc18cf333068b960440680d396b692c293017c432ddac7cad25e",
+      "retrievedAt": "2026-10-26T05:17:36.314Z",
+      "id": "4241308",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pi",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json",
+      "path": "fontes/2/pi.json",
+      "sha256": "aa79f6fa2fbb7006348e1016ec4858bc215c3026a038f9c80283c6e534dac1ab",
+      "retrievedAt": "2026-10-26T05:17:36.702Z",
+      "id": "4247863",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ce",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.json",
+      "path": "fontes/2/ce.json",
+      "sha256": "189aeb382860facb91d2a1f3da05757f6e78ab196035a06a6afca8588ef4d4f3",
+      "retrievedAt": "2026-10-26T05:17:37.088Z",
+      "id": "4244127",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rn",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.json",
+      "path": "fontes/2/rn.json",
+      "sha256": "b1cd9c61283361a3fdea9917c0e8204ab50cd637d1d35c6de927a1cc0d018eb3",
+      "retrievedAt": "2026-10-26T05:17:37.475Z",
+      "id": "4245123",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pb",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.json",
+      "path": "fontes/2/pb.json",
+      "sha256": "ce76ba0a88754c6ada8c028eb6b0f888b029224fbbd6ceaa557bc80ecdba5ca8",
+      "retrievedAt": "2026-10-26T05:17:37.863Z",
+      "id": "4242892",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pe",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.json",
+      "path": "fontes/2/pe.json",
+      "sha256": "7206aef498734c4daba187f60c8d7a81eab0aae044619a23a55d9ea3e907b4b4",
+      "retrievedAt": "2026-10-26T05:17:38.248Z",
+      "id": "4246823",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "al",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.json",
+      "path": "fontes/2/al.json",
+      "sha256": "17e4f968cf66a2f4676053d635362f0b7762a5baa3074aac2be5f5778deafbec",
+      "retrievedAt": "2026-10-26T05:17:38.642Z",
+      "id": "4247860",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "se",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.json",
+      "path": "fontes/2/se.json",
+      "sha256": "2cc1e515e781d7898ca66646c89c59ff8abc8247723eea0e657a11120a1c8ece",
+      "retrievedAt": "2026-10-26T05:17:39.026Z",
+      "id": "4245979",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ba",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.json",
+      "path": "fontes/2/ba.json",
+      "sha256": "a4e092360ddc4594f081c81af8af53535fa787bbec34e06a4a9e1ae77b5e7cd4",
+      "retrievedAt": "2026-10-26T05:17:39.413Z",
+      "id": "4237133",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "mg",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.json",
+      "path": "fontes/2/mg.json",
+      "sha256": "b8df2cfeb58fe9cf48881eea5123dc8fcbbbbc2e2fcdec4175955e5e9715f71a",
+      "retrievedAt": "2026-10-26T05:17:39.799Z",
+      "id": "4242894",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "es",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.json",
+      "path": "fontes/2/es.json",
+      "sha256": "6ce18297c3496452a4e65cc7216354b1c31c1fb8fa71eee4429ebaad2f5a0fcb",
+      "retrievedAt": "2026-10-26T05:17:40.189Z",
+      "id": "4246822",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rj",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.json",
+      "path": "fontes/2/rj.json",
+      "sha256": "2e2c956ef0b44002aab643fe52a21efccf1cc40a3ff10dc1aceb8531571b4e74",
+      "retrievedAt": "2026-10-26T05:17:40.592Z",
+      "id": "4245982",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "sp",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.json",
+      "path": "fontes/2/sp.json",
+      "sha256": "928950f17f4ef1eb889527aa7b37dd5aaa8cb5128b24fdeb64e1acb724641e20",
+      "retrievedAt": "2026-10-26T05:17:40.984Z",
+      "id": "4242895",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.json",
+      "path": "fontes/2/pr.json",
+      "sha256": "d74ef5cd3bc7259ec9745e2a09149c8188dce4c8e06fcc3ba61846ebdfdb9c5d",
+      "retrievedAt": "2026-10-26T05:17:41.382Z",
+      "id": "4247865",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "sc",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.json",
+      "path": "fontes/2/sc.json",
+      "sha256": "80135261f80b3b388cb8bd61335a7347163f9385598bb071a7d0841d6fbd8b3d",
+      "retrievedAt": "2026-10-26T05:17:41.776Z",
+      "id": "4247864",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rs",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.json",
+      "path": "fontes/2/rs.json",
+      "sha256": "dfced6d0feeb5ca67e089c8320cb4c4276f73c17997c99b29f7bc7baf0d99a42",
+      "retrievedAt": "2026-10-26T05:17:42.159Z",
+      "id": "4237135",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ms",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.json",
+      "path": "fontes/2/ms.json",
+      "sha256": "49cf91e54d7ccadd5076215ced7e96d641ee1845f10079f2cd60afb6e6cbedf3",
+      "retrievedAt": "2026-10-26T05:17:42.537Z",
+      "id": "4245120",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "mt",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.json",
+      "path": "fontes/2/mt.json",
+      "sha256": "766479c0061f631d9ba66bb6b2ce9d8a375387ef084dd22c08cdc0ad66e7d33a",
+      "retrievedAt": "2026-10-26T05:17:42.913Z",
+      "id": "4245981",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "go",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.json",
+      "path": "fontes/2/go.json",
+      "sha256": "16d50423643b3c4c58217d6d9a2915b595990efd9f8c9c1b80d3da7c46260542",
+      "retrievedAt": "2026-10-26T05:17:43.293Z",
+      "id": "4244130",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "df",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.json",
+      "path": "fontes/2/df.json",
+      "sha256": "b5a29365e59fae8035769cec4b038031885f5da500854abac9fe7a4a30064b03",
+      "retrievedAt": "2026-10-26T05:17:43.685Z",
+      "id": "4237129",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "zz",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/zz/zz-c0001-e006258-u.json",
+      "path": "fontes/2/zz.json",
+      "sha256": "d8f54c294c61473d84d487e48d83fa0824e0e0b9788832f830440eb3a7646d81",
+      "retrievedAt": "2026-10-26T05:17:44.069Z",
+      "id": "4242891",
+      "updated": "25/10/2026 · 23:26:38"
+    }
+  ]
+}

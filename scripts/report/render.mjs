@@ -23,7 +23,7 @@ export function conclusions(study) {
     const ranked=territories.filter(r=>r.uf!=='zz').map(r=>({...r,change:r.candidates.find(c=>c.number===candidate.number)})).sort((a,b)=>b.change.delta-a.change.delta).slice(0,3);
     paragraphs.push(`As maiores variações líquidas estaduais de ${candidate.name}, ordenadas pelo número de votos, ocorreram em ${ranked.map(r=>`${r.name} (${signed(r.change.delta)})`).join(', ')}. Esse ranking mede volume absoluto; não mede persuasão nem desempenho proporcional ao tamanho do eleitorado.`);
   }
-  paragraphs.push(`${finalists.map(c=>`${c.name} liderou em ${leads[1][c.number]} UFs no primeiro turno e ${leads[2][c.number]} no segundo`).join('; ')}. ${flips.length?`${n(flips.length)} UFs mudaram de liderança entre os turnos: ${flips.map(r=>`${r.uf.toUpperCase()} (${name(r.leaderFirst)} → ${name(r.leaderSecond)})`).join('; ')}.`:'Nenhuma das 27 UFs mudou de liderança entre os turnos.'} A contagem de UFs não define o vencedor nacional: cada voto tem o mesmo peso na soma nacional. O exterior é mostrado separadamente e não entra na contagem de UFs.`);
+  paragraphs.push(`${finalists.map(c=>`${c.name} liderou em ${leads[1][c.number]} UFs no primeiro turno e ${leads[2][c.number]} no segundo`).join('; ')}. ${flips.length?`${n(flips.length)} ${flips.length===1?'UF mudou':'UFs mudaram'} de liderança entre os turnos: ${flips.map(r=>`${r.uf.toUpperCase()} (${name(r.leaderFirst)} → ${name(r.leaderSecond)})`).join('; ')}.`:'Nenhuma das 27 UFs mudou de liderança entre os turnos.'} A contagem de UFs não define o vencedor nacional: cada voto tem o mesmo peso na soma nacional. O exterior é mostrado separadamente e não entra na contagem de UFs.`);
   return paragraphs;
 }
 

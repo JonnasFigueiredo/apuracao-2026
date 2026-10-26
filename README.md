@@ -36,7 +36,7 @@ O [monitor no GitHub Actions](https://github.com/JonnasFigueiredo/apuracao-2026/
 
 ## Conclusão do projeto
 
-O [estudo final dos dois turnos](https://jonnasfigueiredo.github.io/apuracao-2026/relatorio/) será publicado automaticamente após a totalização oficial e a conciliação das 27 UFs, exterior e Brasil. Compara votos, ganhos líquidos, participação e variações territoriais, com exportação em Markdown, CSV e JSON e preservação das fontes. [Metodologia e reprodução](docs/estudo-final.md).
+O [estudo final dos dois turnos](https://jonnasfigueiredo.github.io/apuracao-2026/relatorio/) está publicado com a totalização oficial e a conciliação das 27 UFs, exterior e Brasil. Compara votos, ganhos líquidos, participação e variações territoriais, com exportação em Markdown, CSV e JSON e preservação das fontes. [Metodologia e reprodução](docs/estudo-final.md).
 
 ## Fonte dos dados
 

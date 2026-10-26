@@ -1,0 +1,3593 @@
+{
+  "schemaVersion": 1,
+  "status": "final",
+  "capturedAt": "2026-10-26T05:17:44.434Z",
+  "sources": [
+    {
+      "turn": "1",
+      "scope": "br",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+      "path": "fontes/1/br.json",
+      "sha256": "2866703eb4fc0ad6f17f0e081a00ab1175490b0786325e700cff1d8b40d25bca",
+      "retrievedAt": "2026-10-26T05:17:21.909Z",
+      "id": "2837531",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ro",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ro/ro-c0001-e006257-u.json",
+      "path": "fontes/1/ro.json",
+      "sha256": "c696369d5397d28e78c8313e5dd767728e995825bb053f1035b83f2688e68c31",
+      "retrievedAt": "2026-10-26T05:17:22.682Z",
+      "id": "2833766",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ac",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ac/ac-c0001-e006257-u.json",
+      "path": "fontes/1/ac.json",
+      "sha256": "c67559bc6e31b503162fcdd74604f00ce877efc4b90d7fdea8b48a0e634b4b0e",
+      "retrievedAt": "2026-10-26T05:17:23.064Z",
+      "id": "2837527",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "am",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/am/am-c0001-e006257-u.json",
+      "path": "fontes/1/am.json",
+      "sha256": "8cbbec68324aec9f02df666154d47b2ee00f8c6380a099c7442721adf45214e7",
+      "retrievedAt": "2026-10-26T05:17:23.460Z",
+      "id": "2839170",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rr/rr-c0001-e006257-u.json",
+      "path": "fontes/1/rr.json",
+      "sha256": "9bf774caceab5460c906ca3120dfbe72039b92bd852d21fc77e6a728253e0218",
+      "retrievedAt": "2026-10-26T05:17:23.847Z",
+      "id": "2838602",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pa",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pa/pa-c0001-e006257-u.json",
+      "path": "fontes/1/pa.json",
+      "sha256": "669dbc9548fb9a1f8ebb47a656234364c4aa18eb69c15f7b80634d16e23c2989",
+      "retrievedAt": "2026-10-26T05:17:24.232Z",
+      "id": "2838608",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ap",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ap/ap-c0001-e006257-u.json",
+      "path": "fontes/1/ap.json",
+      "sha256": "42c0d70f1abefdc5e5c5f75f4d341a66c373b34863685f22bc31aa742ec6a062",
+      "retrievedAt": "2026-10-26T05:17:24.625Z",
+      "id": "2837524",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "to",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/to/to-c0001-e006257-u.json",
+      "path": "fontes/1/to.json",
+      "sha256": "76150bdef9fdbf557decc1d7e073b1fa361849316bb6cce5b8f6208ac48cdbd5",
+      "retrievedAt": "2026-10-26T05:17:25.015Z",
+      "id": "2833769",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ma",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ma/ma-c0001-e006257-u.json",
+      "path": "fontes/1/ma.json",
+      "sha256": "22daf14542c35a384967da16c71ca02b5292b5703d4ef09357dc1a1a65b9a41d",
+      "retrievedAt": "2026-10-26T05:17:25.410Z",
+      "id": "2835812",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pi",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pi/pi-c0001-e006257-u.json",
+      "path": "fontes/1/pi.json",
+      "sha256": "d6dac2da5cbff871ab4c323beae7df6902ccb6e9c7a6b38e17518b2eac8842a2",
+      "retrievedAt": "2026-10-26T05:17:25.812Z",
+      "id": "2839174",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ce",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ce/ce-c0001-e006257-u.json",
+      "path": "fontes/1/ce.json",
+      "sha256": "ff65f98d1f1462c8230a2856f6c0e46ee7fb2a8f8ac7f1bf60979c6b1eea5f07",
+      "retrievedAt": "2026-10-26T05:17:26.204Z",
+      "id": "2835000",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rn",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rn/rn-c0001-e006257-u.json",
+      "path": "fontes/1/rn.json",
+      "sha256": "87e559952a7a66a7592b8a9617e53af7e5748ee73d7802807e8e5a05e33df7f4",
+      "retrievedAt": "2026-10-26T05:17:26.593Z",
+      "id": "2835810",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pb",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pb/pb-c0001-e006257-u.json",
+      "path": "fontes/1/pb.json",
+      "sha256": "7da03ae14bac3cf830d723ef04a02d5f830dc696ca9480647e76f1e146648e00",
+      "retrievedAt": "2026-10-26T05:17:26.979Z",
+      "id": "2833770",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pe",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pe/pe-c0001-e006257-u.json",
+      "path": "fontes/1/pe.json",
+      "sha256": "a18f9e0ec8f7073b3a9ff932321ae8592d3a906b875a33e080c2abb2444510bf",
+      "retrievedAt": "2026-10-26T05:17:27.371Z",
+      "id": "2839173",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "al",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/al/al-c0001-e006257-u.json",
+      "path": "fontes/1/al.json",
+      "sha256": "96e234bc2a91d872d54a9951fbd60dce9b54ad0dc1fe347e322d89d25be187d4",
+      "retrievedAt": "2026-10-26T05:17:27.755Z",
+      "id": "2835807",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "se",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/se/se-c0001-e006257-u.json",
+      "path": "fontes/1/se.json",
+      "sha256": "c163da0f27c4b0bbdcc34359c87b88607d5823573c813d5835afff339340be77",
+      "retrievedAt": "2026-10-26T05:17:28.144Z",
+      "id": "2837528",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ba",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ba/ba-c0001-e006257-u.json",
+      "path": "fontes/1/ba.json",
+      "sha256": "b50778a7cb0f9763994873ea045e95da1ee962577675dfcb99786f2853208415",
+      "retrievedAt": "2026-10-26T05:17:28.529Z",
+      "id": "2837532",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "mg",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/mg/mg-c0001-e006257-u.json",
+      "path": "fontes/1/mg.json",
+      "sha256": "d01c373751e029fdba347cce9f367679707bfb897f3942b3e233a273b87db199",
+      "retrievedAt": "2026-10-26T05:17:28.918Z",
+      "id": "2838611",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "es",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/es/es-c0001-e006257-u.json",
+      "path": "fontes/1/es.json",
+      "sha256": "9e8036ad95dfc1fa119b26164bba9201fa6562c007418c773f13e7f5b6fe319d",
+      "retrievedAt": "2026-10-26T05:17:29.308Z",
+      "id": "2839171",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rj",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rj/rj-c0001-e006257-u.json",
+      "path": "fontes/1/rj.json",
+      "sha256": "8a67b766e614b72140c0f6e026a097e4b20098f0c66cd528bb6a7aed194fda6a",
+      "retrievedAt": "2026-10-26T05:17:29.699Z",
+      "id": "2835811",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "sp",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/sp/sp-c0001-e006257-u.json",
+      "path": "fontes/1/sp.json",
+      "sha256": "6e417d16de88b97e27abffc58f404e753ee73a34142da0bb266821d903e67c68",
+      "retrievedAt": "2026-10-26T05:17:30.087Z",
+      "id": "2837533",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "pr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/pr/pr-c0001-e006257-u.json",
+      "path": "fontes/1/pr.json",
+      "sha256": "d54aff50901472503eece5aabdce59518e67fd57cb7e7337b81132f995d72d02",
+      "retrievedAt": "2026-10-26T05:17:30.479Z",
+      "id": "2833772",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "sc",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/sc/sc-c0001-e006257-u.json",
+      "path": "fontes/1/sc.json",
+      "sha256": "b51645c4cf68c1fe4761acdafd1214325c259661eb6522b286b97ab1b1d13381",
+      "retrievedAt": "2026-10-26T05:17:30.879Z",
+      "id": "2836295",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "rs",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/rs/rs-c0001-e006257-u.json",
+      "path": "fontes/1/rs.json",
+      "sha256": "7a56c5d75aa8a0aa75127e72814a7cbbbf9876b96f1d77a0c3154b95fd43371c",
+      "retrievedAt": "2026-10-26T05:17:31.266Z",
+      "id": "2836296",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "ms",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/ms/ms-c0001-e006257-u.json",
+      "path": "fontes/1/ms.json",
+      "sha256": "35a5e50df19afeea34928eb3810f53cbcd122730c27d4d2fb2a52cdbd3ae6b19",
+      "retrievedAt": "2026-10-26T05:17:31.650Z",
+      "id": "2837529",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "mt",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/mt/mt-c0001-e006257-u.json",
+      "path": "fontes/1/mt.json",
+      "sha256": "0e7250b701d2889ba864082682e5ff5e14593bbac0a978c7d1ee88e6b42e285e",
+      "retrievedAt": "2026-10-26T05:17:32.043Z",
+      "id": "2832694",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "go",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/go/go-c0001-e006257-u.json",
+      "path": "fontes/1/go.json",
+      "sha256": "0bca25dc783c2b3c711f0cfe7432fe9e10d78d5ef8449c6d1368740bbe2dc1d6",
+      "retrievedAt": "2026-10-26T05:17:32.438Z",
+      "id": "2832695",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "df",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/df/df-c0001-e006257-u.json",
+      "path": "fontes/1/df.json",
+      "sha256": "6fa13cd7f0b3024777891dbe94723e7e39ecbba76bdc702e9f81428826a7283a",
+      "retrievedAt": "2026-10-26T05:17:32.824Z",
+      "id": "2834997",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "1",
+      "scope": "zz",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/zz/zz-c0001-e006257-u.json",
+      "path": "fontes/1/zz.json",
+      "sha256": "9e8c762a6fdf924b46836cc246c8a32a41ec7f8f60ba2b1905cc8bd4a33dec03",
+      "retrievedAt": "2026-10-26T05:17:33.209Z",
+      "id": "3946982",
+      "updated": "05/10/2026 · 12:51:05"
+    },
+    {
+      "turn": "2",
+      "scope": "br",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+      "path": "fontes/2/br.json",
+      "sha256": "67fae708b0c7977fc9847d36100c63313621bff971178c48f2da99969707c263",
+      "retrievedAt": "2026-10-26T05:17:22.295Z",
+      "id": "4241309",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ro",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ro/ro-c0001-e006258-u.json",
+      "path": "fontes/2/ro.json",
+      "sha256": "63e07e2b7218c7355acab9bdae18a0cef8dded2148f73485cd490b0fa0c2ec29",
+      "retrievedAt": "2026-10-26T05:17:33.600Z",
+      "id": "4244125",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ac",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ac/ac-c0001-e006258-u.json",
+      "path": "fontes/2/ac.json",
+      "sha256": "c70137f47f4003b9af57f6669fac400138563e2cd61410d6d5064aff3ac50225",
+      "retrievedAt": "2026-10-26T05:17:33.984Z",
+      "id": "4242890",
+      "updated": "25/10/2026 · 21:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "am",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/am/am-c0001-e006258-u.json",
+      "path": "fontes/2/am.json",
+      "sha256": "601a662e37dc60f39bf47b2061d6bccef2b6d936e1225507f30b2c74751f9f8e",
+      "retrievedAt": "2026-10-26T05:17:34.380Z",
+      "id": "4241303",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rr/rr-c0001-e006258-u.json",
+      "path": "fontes/2/rr.json",
+      "sha256": "ea50faa6f34d7abca08c86ccaedfaf2cdd9b07a9c1ace6353f7bd2148e9e8fde",
+      "retrievedAt": "2026-10-26T05:17:34.770Z",
+      "id": "4241245",
+      "updated": "25/10/2026 · 20:12:18"
+    },
+    {
+      "turn": "2",
+      "scope": "pa",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pa/pa-c0001-e006258-u.json",
+      "path": "fontes/2/pa.json",
+      "sha256": "36ea55088a8aa102520b062ddf39490f3800406d33fceb301ea138b6fdd0c58a",
+      "retrievedAt": "2026-10-26T05:17:35.155Z",
+      "id": "4245983",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ap",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ap/ap-c0001-e006258-u.json",
+      "path": "fontes/2/ap.json",
+      "sha256": "135f0658833ebc7cc65170a2d4b245b71e0308fad5488e0e9ba86929260a43cc",
+      "retrievedAt": "2026-10-26T05:17:35.537Z",
+      "id": "4246820",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "to",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/to/to-c0001-e006258-u.json",
+      "path": "fontes/2/to.json",
+      "sha256": "fb9b8da8cd5fd57ff7172a8a741e35da90c7521e0d37533605db84d39ebd0535",
+      "retrievedAt": "2026-10-26T05:17:35.923Z",
+      "id": "4237130",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ma",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ma/ma-c0001-e006258-u.json",
+      "path": "fontes/2/ma.json",
+      "sha256": "c53e1dd219b2bc18cf333068b960440680d396b692c293017c432ddac7cad25e",
+      "retrievedAt": "2026-10-26T05:17:36.314Z",
+      "id": "4241308",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pi",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pi/pi-c0001-e006258-u.json",
+      "path": "fontes/2/pi.json",
+      "sha256": "aa79f6fa2fbb7006348e1016ec4858bc215c3026a038f9c80283c6e534dac1ab",
+      "retrievedAt": "2026-10-26T05:17:36.702Z",
+      "id": "4247863",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ce",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ce/ce-c0001-e006258-u.json",
+      "path": "fontes/2/ce.json",
+      "sha256": "189aeb382860facb91d2a1f3da05757f6e78ab196035a06a6afca8588ef4d4f3",
+      "retrievedAt": "2026-10-26T05:17:37.088Z",
+      "id": "4244127",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rn",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rn/rn-c0001-e006258-u.json",
+      "path": "fontes/2/rn.json",
+      "sha256": "b1cd9c61283361a3fdea9917c0e8204ab50cd637d1d35c6de927a1cc0d018eb3",
+      "retrievedAt": "2026-10-26T05:17:37.475Z",
+      "id": "4245123",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pb",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pb/pb-c0001-e006258-u.json",
+      "path": "fontes/2/pb.json",
+      "sha256": "ce76ba0a88754c6ada8c028eb6b0f888b029224fbbd6ceaa557bc80ecdba5ca8",
+      "retrievedAt": "2026-10-26T05:17:37.863Z",
+      "id": "4242892",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pe",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pe/pe-c0001-e006258-u.json",
+      "path": "fontes/2/pe.json",
+      "sha256": "7206aef498734c4daba187f60c8d7a81eab0aae044619a23a55d9ea3e907b4b4",
+      "retrievedAt": "2026-10-26T05:17:38.248Z",
+      "id": "4246823",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "al",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/al/al-c0001-e006258-u.json",
+      "path": "fontes/2/al.json",
+      "sha256": "17e4f968cf66a2f4676053d635362f0b7762a5baa3074aac2be5f5778deafbec",
+      "retrievedAt": "2026-10-26T05:17:38.642Z",
+      "id": "4247860",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "se",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/se/se-c0001-e006258-u.json",
+      "path": "fontes/2/se.json",
+      "sha256": "2cc1e515e781d7898ca66646c89c59ff8abc8247723eea0e657a11120a1c8ece",
+      "retrievedAt": "2026-10-26T05:17:39.026Z",
+      "id": "4245979",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ba",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ba/ba-c0001-e006258-u.json",
+      "path": "fontes/2/ba.json",
+      "sha256": "a4e092360ddc4594f081c81af8af53535fa787bbec34e06a4a9e1ae77b5e7cd4",
+      "retrievedAt": "2026-10-26T05:17:39.413Z",
+      "id": "4237133",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "mg",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mg/mg-c0001-e006258-u.json",
+      "path": "fontes/2/mg.json",
+      "sha256": "b8df2cfeb58fe9cf48881eea5123dc8fcbbbbc2e2fcdec4175955e5e9715f71a",
+      "retrievedAt": "2026-10-26T05:17:39.799Z",
+      "id": "4242894",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "es",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/es/es-c0001-e006258-u.json",
+      "path": "fontes/2/es.json",
+      "sha256": "6ce18297c3496452a4e65cc7216354b1c31c1fb8fa71eee4429ebaad2f5a0fcb",
+      "retrievedAt": "2026-10-26T05:17:40.189Z",
+      "id": "4246822",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rj",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rj/rj-c0001-e006258-u.json",
+      "path": "fontes/2/rj.json",
+      "sha256": "2e2c956ef0b44002aab643fe52a21efccf1cc40a3ff10dc1aceb8531571b4e74",
+      "retrievedAt": "2026-10-26T05:17:40.592Z",
+      "id": "4245982",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "sp",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sp/sp-c0001-e006258-u.json",
+      "path": "fontes/2/sp.json",
+      "sha256": "928950f17f4ef1eb889527aa7b37dd5aaa8cb5128b24fdeb64e1acb724641e20",
+      "retrievedAt": "2026-10-26T05:17:40.984Z",
+      "id": "4242895",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "pr",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/pr/pr-c0001-e006258-u.json",
+      "path": "fontes/2/pr.json",
+      "sha256": "d74ef5cd3bc7259ec9745e2a09149c8188dce4c8e06fcc3ba61846ebdfdb9c5d",
+      "retrievedAt": "2026-10-26T05:17:41.382Z",
+      "id": "4247865",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "sc",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/sc/sc-c0001-e006258-u.json",
+      "path": "fontes/2/sc.json",
+      "sha256": "80135261f80b3b388cb8bd61335a7347163f9385598bb071a7d0841d6fbd8b3d",
+      "retrievedAt": "2026-10-26T05:17:41.776Z",
+      "id": "4247864",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "rs",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/rs/rs-c0001-e006258-u.json",
+      "path": "fontes/2/rs.json",
+      "sha256": "dfced6d0feeb5ca67e089c8320cb4c4276f73c17997c99b29f7bc7baf0d99a42",
+      "retrievedAt": "2026-10-26T05:17:42.159Z",
+      "id": "4237135",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "ms",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/ms/ms-c0001-e006258-u.json",
+      "path": "fontes/2/ms.json",
+      "sha256": "49cf91e54d7ccadd5076215ced7e96d641ee1845f10079f2cd60afb6e6cbedf3",
+      "retrievedAt": "2026-10-26T05:17:42.537Z",
+      "id": "4245120",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "mt",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/mt/mt-c0001-e006258-u.json",
+      "path": "fontes/2/mt.json",
+      "sha256": "766479c0061f631d9ba66bb6b2ce9d8a375387ef084dd22c08cdc0ad66e7d33a",
+      "retrievedAt": "2026-10-26T05:17:42.913Z",
+      "id": "4245981",
+      "updated": "25/10/2026 · 22:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "go",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/go/go-c0001-e006258-u.json",
+      "path": "fontes/2/go.json",
+      "sha256": "16d50423643b3c4c58217d6d9a2915b595990efd9f8c9c1b80d3da7c46260542",
+      "retrievedAt": "2026-10-26T05:17:43.293Z",
+      "id": "4244130",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "df",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/df/df-c0001-e006258-u.json",
+      "path": "fontes/2/df.json",
+      "sha256": "b5a29365e59fae8035769cec4b038031885f5da500854abac9fe7a4a30064b03",
+      "retrievedAt": "2026-10-26T05:17:43.685Z",
+      "id": "4237129",
+      "updated": "25/10/2026 · 23:26:38"
+    },
+    {
+      "turn": "2",
+      "scope": "zz",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/zz/zz-c0001-e006258-u.json",
+      "path": "fontes/2/zz.json",
+      "sha256": "d8f54c294c61473d84d487e48d83fa0824e0e0b9788832f830440eb3a7646d81",
+      "retrievedAt": "2026-10-26T05:17:44.069Z",
+      "id": "4242891",
+      "updated": "25/10/2026 · 23:26:38"
+    }
+  ],
+  "national": {
+    "candidates": [
+      {
+        "number": "13",
+        "name": "Lula",
+        "first": 53879538,
+        "second": 64256232,
+        "delta": 10376694,
+        "growthPercent": 19.2590626890676,
+        "firstPercent": 45.1627679106361,
+        "secondPercent": 51.7851828842626,
+        "percentagePoints": 6.622414973626505
+      },
+      {
+        "number": "22",
+        "name": "Flávio Bolsonaro",
+        "first": 56104503,
+        "second": 59826041,
+        "delta": 3721538,
+        "growthPercent": 6.633225144156432,
+        "firstPercent": 47.0277723563737,
+        "secondPercent": 48.2148171157374,
+        "percentagePoints": 1.187044759363694
+      }
+    ],
+    "metrics": {
+      "valid": {
+        "first": 119300788,
+        "second": 124082273,
+        "delta": 4781485,
+        "growthPercent": 4.007924071716944,
+        "firstPercent": 95.23048718853082,
+        "secondPercent": 96.76081708490233,
+        "percentagePoints": 1.5303298963715122
+      },
+      "blank": {
+        "first": 2300798,
+        "second": 1430496,
+        "delta": -870302,
+        "growthPercent": -37.82609338151372,
+        "firstPercent": 1.836585643192879,
+        "secondPercent": 1.1155176194804592,
+        "percentagePoints": -0.7210680237124198
+      },
+      "nullVotes": {
+        "first": 3674249,
+        "second": 2723305,
+        "delta": -950944,
+        "growthPercent": -25.881316154675417,
+        "firstPercent": 2.932927168276308,
+        "secondPercent": 2.1236652956172066,
+        "percentagePoints": -0.8092618726591012
+      },
+      "turnout": {
+        "first": 125275835,
+        "second": 128236074,
+        "delta": 2960239,
+        "growthPercent": 2.362976866208874,
+        "firstPercent": 78.91635809384681,
+        "secondPercent": 80.78113337925895,
+        "percentagePoints": 1.8647752854121364
+      },
+      "abstention": {
+        "first": 33469244,
+        "second": 30509005,
+        "delta": -2960239,
+        "growthPercent": -8.844654513259995,
+        "firstPercent": 21.083641906153197,
+        "secondPercent": 19.218866620741043,
+        "percentagePoints": -1.8647752854121542
+      }
+    },
+    "margin": {
+      "first": -2224965,
+      "second": 4430191,
+      "delta": 6655156
+    },
+    "leaderFirst": "22",
+    "leaderSecond": "13"
+  },
+  "territories": [
+    {
+      "uf": "ro",
+      "name": "Rondônia",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 250667,
+          "second": 294446,
+          "delta": 43779,
+          "growthPercent": 17.465003371006155,
+          "firstPercent": 25.89377300350495,
+          "secondPercent": 30.39197876196807,
+          "percentagePoints": 4.4982057584631185
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 652988,
+          "second": 674382,
+          "delta": 21394,
+          "growthPercent": 3.2763236077845233,
+          "firstPercent": 67.45332670839277,
+          "secondPercent": 69.60802123803194,
+          "percentagePoints": 2.1546945296391726
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 968059,
+          "second": 968828,
+          "delta": 769,
+          "growthPercent": 0.07943730702364216,
+          "firstPercent": 97.67718044961052,
+          "secondPercent": 98.01100467481176,
+          "percentagePoints": 0.33382422520124067
+        },
+        "blank": {
+          "first": 9846,
+          "second": 8361,
+          "delta": -1485,
+          "growthPercent": -15.082266910420476,
+          "firstPercent": 0.9934616781692699,
+          "secondPercent": 0.8458364230659117,
+          "percentagePoints": -0.14762525510335822
+        },
+        "nullVotes": {
+          "first": 13175,
+          "second": 11300,
+          "delta": -1875,
+          "growthPercent": -14.231499051233396,
+          "firstPercent": 1.3293578722202042,
+          "secondPercent": 1.14315890212233,
+          "percentagePoints": -0.18619897009787412
+        },
+        "turnout": {
+          "first": 991080,
+          "second": 988489,
+          "delta": -2591,
+          "growthPercent": -0.2614319732009525,
+          "firstPercent": 78.29097719949475,
+          "secondPercent": 78.08426400911269,
+          "percentagePoints": -0.20671319038206093
+        },
+        "abstention": {
+          "first": 274813,
+          "second": 277437,
+          "delta": 2624,
+          "growthPercent": 0.954831103332084,
+          "firstPercent": 21.709022800505256,
+          "secondPercent": 21.915735990887303,
+          "percentagePoints": 0.20671319038204672
+        }
+      },
+      "margin": {
+        "first": -402321,
+        "second": -379936,
+        "delta": 22385
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "ac",
+      "name": "Acre",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 134770,
+          "second": 144513,
+          "delta": 9743,
+          "growthPercent": 7.229353713734511,
+          "firstPercent": 28.73156442803358,
+          "secondPercent": 33.434437380271525,
+          "percentagePoints": 4.702872952237946
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 302807,
+          "second": 287715,
+          "delta": -15092,
+          "growthPercent": -4.984032733721479,
+          "firstPercent": 64.55530778184733,
+          "secondPercent": 66.56556261972848,
+          "percentagePoints": 2.010254837881149
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 469066,
+          "second": 432228,
+          "delta": -36838,
+          "growthPercent": -7.853479041328939,
+          "firstPercent": 96.05512665615466,
+          "secondPercent": 95.27701728630188,
+          "percentagePoints": -0.7781093698527712
+        },
+        "blank": {
+          "first": 5579,
+          "second": 5016,
+          "delta": -563,
+          "growthPercent": -10.091414231941208,
+          "firstPercent": 1.1424651362807938,
+          "secondPercent": 1.105688476239601,
+          "percentagePoints": -0.03677666004119273
+        },
+        "nullVotes": {
+          "first": 13685,
+          "second": 16410,
+          "delta": 2725,
+          "growthPercent": 19.91231275118743,
+          "firstPercent": 2.802408207564557,
+          "secondPercent": 3.6172942374585038,
+          "percentagePoints": 0.8148860298939469
+        },
+        "turnout": {
+          "first": 488330,
+          "second": 453654,
+          "delta": -34676,
+          "growthPercent": -7.1009358425654785,
+          "firstPercent": 79.56600656301833,
+          "secondPercent": 73.91932737508453,
+          "percentagePoints": -5.646679187933799
+        },
+        "abstention": {
+          "first": 125412,
+          "second": 160061,
+          "delta": 34649,
+          "growthPercent": 27.628137658278312,
+          "firstPercent": 20.433993436981662,
+          "secondPercent": 26.080672624915476,
+          "percentagePoints": 5.646679187933813
+        }
+      },
+      "margin": {
+        "first": -168037,
+        "second": -143202,
+        "delta": 24835
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "am",
+      "name": "Amazonas",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1046996,
+          "second": 1145783,
+          "delta": 98787,
+          "growthPercent": 9.435279599922062,
+          "firstPercent": 48.23170470475128,
+          "secondPercent": 54.02017323675123,
+          "percentagePoints": 5.788468531999953
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 976764,
+          "second": 975245,
+          "delta": -1519,
+          "growthPercent": -0.1555135119639954,
+          "firstPercent": 44.99634460325701,
+          "secondPercent": 45.97982676324877,
+          "percentagePoints": 0.9834821599917589
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 2170763,
+          "second": 2121028,
+          "delta": -49735,
+          "growthPercent": -2.2911298930376094,
+          "firstPercent": 97.14546425251807,
+          "secondPercent": 96.75962188973928,
+          "percentagePoints": -0.3858423627787886
+        },
+        "blank": {
+          "first": 24402,
+          "second": 18324,
+          "delta": -6078,
+          "growthPercent": -24.907794443078433,
+          "firstPercent": 1.0920324414456788,
+          "secondPercent": 0.8359264052655517,
+          "percentagePoints": -0.25610603618012706
+        },
+        "nullVotes": {
+          "first": 39384,
+          "second": 52707,
+          "delta": 13323,
+          "growthPercent": 33.828458257160264,
+          "firstPercent": 1.7625033060362516,
+          "secondPercent": 2.4044517049951666,
+          "percentagePoints": 0.641948398958915
+        },
+        "turnout": {
+          "first": 2234549,
+          "second": 2192059,
+          "delta": -42490,
+          "growthPercent": -1.9015022718230838,
+          "firstPercent": 79.84493021716844,
+          "secondPercent": 78.32527769529786,
+          "percentagePoints": -1.519652521870583
+        },
+        "abstention": {
+          "first": 564062,
+          "second": 606602,
+          "delta": 42540,
+          "growthPercent": 7.5417241367083765,
+          "firstPercent": 20.155069782831557,
+          "secondPercent": 21.67472230470214,
+          "percentagePoints": 1.519652521870583
+        }
+      },
+      "margin": {
+        "first": 70232,
+        "second": 170538,
+        "delta": 100306
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "rr",
+      "name": "Roraima",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 74420,
+          "second": 83505,
+          "delta": 9085,
+          "growthPercent": 12.20773985487772,
+          "firstPercent": 22.860126864181606,
+          "secondPercent": 27.543043736394225,
+          "percentagePoints": 4.682916872212619
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 231322,
+          "second": 219675,
+          "delta": -11647,
+          "growthPercent": -5.034972894925688,
+          "firstPercent": 71.05684313996528,
+          "secondPercent": 72.45695626360578,
+          "percentagePoints": 1.4001131236404945
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 325545,
+          "second": 303180,
+          "delta": -22365,
+          "growthPercent": -6.870017969865917,
+          "firstPercent": 97.8282427608092,
+          "secondPercent": 98.24463620838829,
+          "percentagePoints": 0.4163934475790825
+        },
+        "blank": {
+          "first": 2618,
+          "second": 2176,
+          "delta": -442,
+          "growthPercent": -16.883116883116884,
+          "firstPercent": 0.786724844638371,
+          "secondPercent": 0.705126751070166,
+          "percentagePoints": -0.08159809356820502
+        },
+        "nullVotes": {
+          "first": 4609,
+          "second": 3241,
+          "delta": -1368,
+          "growthPercent": -29.681058798003907,
+          "firstPercent": 1.3850323945524263,
+          "secondPercent": 1.0502370405415478,
+          "percentagePoints": -0.33479535401087857
+        },
+        "turnout": {
+          "first": 332772,
+          "second": 308597,
+          "delta": -24175,
+          "growthPercent": -7.264733811738969,
+          "firstPercent": 82.87785694895162,
+          "secondPercent": 76.853364546496,
+          "percentagePoints": -6.024492402455621
+        },
+        "abstention": {
+          "first": 68749,
+          "second": 92943,
+          "delta": 24194,
+          "growthPercent": 35.191784607776114,
+          "firstPercent": 17.12214305104839,
+          "secondPercent": 23.14663545350401,
+          "percentagePoints": 6.024492402455621
+        }
+      },
+      "margin": {
+        "first": -156902,
+        "second": -136170,
+        "delta": 20732
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "pa",
+      "name": "Pará",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 2427237,
+          "second": 2690449,
+          "delta": 263212,
+          "growthPercent": 10.844099690306303,
+          "firstPercent": 49.91057277020019,
+          "secondPercent": 55.01503050166357,
+          "percentagePoints": 5.104457731463377
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 2163957,
+          "second": 2199940,
+          "delta": 35983,
+          "growthPercent": 1.6628334111999452,
+          "firstPercent": 44.49682223865412,
+          "secondPercent": 44.98496949833643,
+          "percentagePoints": 0.4881472596823144
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 4863172,
+          "second": 4890389,
+          "delta": 27217,
+          "growthPercent": 0.5596553031642723,
+          "firstPercent": 95.98673957427054,
+          "secondPercent": 98.01217458888767,
+          "percentagePoints": 2.0254350146171305
+        },
+        "blank": {
+          "first": 54203,
+          "second": 36501,
+          "delta": -17702,
+          "growthPercent": -32.65870892755014,
+          "firstPercent": 1.0698303998180994,
+          "secondPercent": 0.7315455651215044,
+          "percentagePoints": -0.338284834696595
+        },
+        "nullVotes": {
+          "first": 149129,
+          "second": 62683,
+          "delta": -86446,
+          "growthPercent": -57.96726324189125,
+          "firstPercent": 2.943430025911358,
+          "secondPercent": 1.256279845990829,
+          "percentagePoints": -1.687150179920529
+        },
+        "turnout": {
+          "first": 5066504,
+          "second": 4989573,
+          "delta": -76931,
+          "growthPercent": -1.5184237493940596,
+          "firstPercent": 80.90359011094314,
+          "secondPercent": 79.67938042143619,
+          "percentagePoints": -1.2242096895069494
+        },
+        "abstention": {
+          "first": 1195893,
+          "second": 1272490,
+          "delta": 76597,
+          "growthPercent": 6.405004461101453,
+          "firstPercent": 19.096409889056858,
+          "secondPercent": 20.320619578563807,
+          "percentagePoints": 1.2242096895069494
+        }
+      },
+      "margin": {
+        "first": 263280,
+        "second": 490509,
+        "delta": 227229
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "ap",
+      "name": "Amapá",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 212503,
+          "second": 222968,
+          "delta": 10465,
+          "growthPercent": 4.924636358074945,
+          "firstPercent": 45.71352972305521,
+          "secondPercent": 52.880879988236465,
+          "percentagePoints": 7.1673502651812555
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 212278,
+          "second": 198674,
+          "delta": -13604,
+          "growthPercent": -6.408577431481359,
+          "firstPercent": 45.665127845492606,
+          "secondPercent": 47.119120011763535,
+          "percentagePoints": 1.453992166270929
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 464858,
+          "second": 421642,
+          "delta": -43216,
+          "growthPercent": -9.29660240331456,
+          "firstPercent": 97.54407611181756,
+          "secondPercent": 98.06198034769463,
+          "percentagePoints": 0.5179042358770687
+        },
+        "blank": {
+          "first": 4415,
+          "second": 3320,
+          "delta": -1095,
+          "growthPercent": -24.80181200453001,
+          "firstPercent": 0.9264272014973917,
+          "secondPercent": 0.7721379149950578,
+          "percentagePoints": -0.15428928650233387
+        },
+        "nullVotes": {
+          "first": 7289,
+          "second": 5013,
+          "delta": -2276,
+          "growthPercent": -31.225133763204827,
+          "firstPercent": 1.5294966866850483,
+          "secondPercent": 1.1658817373103088,
+          "percentagePoints": -0.3636149493747396
+        },
+        "turnout": {
+          "first": 476562,
+          "second": 429975,
+          "delta": -46587,
+          "growthPercent": -9.775643043297618,
+          "firstPercent": 82.59478533349048,
+          "secondPercent": 74.53068936229221,
+          "percentagePoints": -8.06409597119827
+        },
+        "abstention": {
+          "first": 100426,
+          "second": 146935,
+          "delta": 46509,
+          "growthPercent": 46.311712106426626,
+          "firstPercent": 17.40521466650953,
+          "secondPercent": 25.469310637707785,
+          "percentagePoints": 8.064095971198256
+        }
+      },
+      "margin": {
+        "first": 225,
+        "second": 24294,
+        "delta": 24069
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "to",
+      "name": "Tocantins",
+      "region": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 404009,
+          "second": 442962,
+          "delta": 38953,
+          "growthPercent": 9.641616894673138,
+          "firstPercent": 43.42095788368386,
+          "secondPercent": 48.63022270820022,
+          "percentagePoints": 5.20926482451636
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 469321,
+          "second": 467916,
+          "delta": -1405,
+          "growthPercent": -0.29936866238672466,
+          "firstPercent": 50.4403797314624,
+          "secondPercent": 51.36977729179978,
+          "percentagePoints": 0.9293975603373781
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 930447,
+          "second": 910878,
+          "delta": -19569,
+          "growthPercent": -2.1031826638164235,
+          "firstPercent": 96.39979859013091,
+          "secondPercent": 95.40357135749919,
+          "percentagePoints": -0.9962272326317247
+        },
+        "blank": {
+          "first": 8344,
+          "second": 8059,
+          "delta": -285,
+          "growthPercent": -3.415627996164909,
+          "firstPercent": 0.8644876273834537,
+          "secondPercent": 0.8440838197542218,
+          "percentagePoints": -0.020403807629231996
+        },
+        "nullVotes": {
+          "first": 26405,
+          "second": 35826,
+          "delta": 9421,
+          "growthPercent": 35.678848702897184,
+          "firstPercent": 2.7357137824856297,
+          "secondPercent": 3.752344822746587,
+          "percentagePoints": 1.0166310402609575
+        },
+        "turnout": {
+          "first": 965196,
+          "second": 954763,
+          "delta": -10433,
+          "growthPercent": -1.0809203519285202,
+          "firstPercent": 81.65627910793614,
+          "secondPercent": 80.77240975566838,
+          "percentagePoints": -0.8838693522677659
+        },
+        "abstention": {
+          "first": 216827,
+          "second": 227278,
+          "delta": 10451,
+          "growthPercent": 4.819971682493416,
+          "firstPercent": 18.34372089206386,
+          "secondPercent": 19.227590244331626,
+          "percentagePoints": 0.8838693522677659
+        }
+      },
+      "margin": {
+        "first": -65312,
+        "second": -24954,
+        "delta": 40358
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "ma",
+      "name": "Maranhão",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 2566301,
+          "second": 2808231,
+          "delta": 241930,
+          "growthPercent": 9.427187223946062,
+          "firstPercent": 63.99052572548791,
+          "secondPercent": 69.54161777939785,
+          "percentagePoints": 5.55109205390994
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 1239040,
+          "second": 1229971,
+          "delta": -9069,
+          "growthPercent": -0.7319376291322314,
+          "firstPercent": 30.89537080603894,
+          "secondPercent": 30.458382220602136,
+          "percentagePoints": -0.4369885854368043
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 4010439,
+          "second": 4038202,
+          "delta": 27763,
+          "growthPercent": 0.6922683526666282,
+          "firstPercent": 96.39683554937658,
+          "secondPercent": 97.83008795788332,
+          "percentagePoints": 1.4332524085067462
+        },
+        "blank": {
+          "first": 46315,
+          "second": 30855,
+          "delta": -15460,
+          "growthPercent": -33.38011443376876,
+          "firstPercent": 1.113249556587041,
+          "secondPercent": 0.7474978626479036,
+          "percentagePoints": -0.3657516939391374
+        },
+        "nullVotes": {
+          "first": 103589,
+          "second": 58714,
+          "delta": -44875,
+          "growthPercent": -43.32023670466941,
+          "firstPercent": 2.489914894036381,
+          "secondPercent": 1.422414179468774,
+          "percentagePoints": -1.0675007145676072
+        },
+        "turnout": {
+          "first": 4160343,
+          "second": 4127771,
+          "delta": -32572,
+          "growthPercent": -0.7829162162831286,
+          "firstPercent": 80.26723312139514,
+          "secondPercent": 79.63982204297123,
+          "percentagePoints": -0.6274110784239042
+        },
+        "abstention": {
+          "first": 1022772,
+          "second": 1055278,
+          "delta": 32506,
+          "growthPercent": 3.1782254500514284,
+          "firstPercent": 19.732766878604853,
+          "secondPercent": 20.360177957028768,
+          "percentagePoints": 0.6274110784239149
+        }
+      },
+      "margin": {
+        "first": 1327261,
+        "second": 1578260,
+        "delta": 250999
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "pi",
+      "name": "Piauí",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1523710,
+          "second": 1653989,
+          "delta": 130279,
+          "growthPercent": 8.550117804569112,
+          "firstPercent": 70.98929646653876,
+          "secondPercent": 75.87634550665918,
+          "percentagePoints": 4.8870490401204165
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 517028,
+          "second": 525859,
+          "delta": 8831,
+          "growthPercent": 1.7080312865067269,
+          "firstPercent": 24.08821493164815,
+          "secondPercent": 24.123654493340823,
+          "percentagePoints": 0.03543956169267304
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 2146394,
+          "second": 2179848,
+          "delta": 33454,
+          "growthPercent": 1.5586141221043295,
+          "firstPercent": 95.78340323881255,
+          "secondPercent": 97.32202890397932,
+          "percentagePoints": 1.5386256651667622
+        },
+        "blank": {
+          "first": 28329,
+          "second": 16137,
+          "delta": -12192,
+          "growthPercent": -43.037170390765645,
+          "firstPercent": 1.2641891611476368,
+          "secondPercent": 0.720456463213726,
+          "percentagePoints": -0.5437326979339108
+        },
+        "nullVotes": {
+          "first": 66160,
+          "second": 43845,
+          "delta": -22315,
+          "growthPercent": -33.728839177750906,
+          "firstPercent": 2.952407600039806,
+          "secondPercent": 1.9575146328069541,
+          "percentagePoints": -0.9948929672328517
+        },
+        "turnout": {
+          "first": 2240883,
+          "second": 2239830,
+          "delta": -1053,
+          "growthPercent": -0.04699040512155253,
+          "firstPercent": 82.8496671421251,
+          "secondPercent": 82.81266464425748,
+          "percentagePoints": -0.037002497867618445
+        },
+        "abstention": {
+          "first": 463875,
+          "second": 464865,
+          "delta": 990,
+          "growthPercent": 0.2134195634599838,
+          "firstPercent": 17.1503328578749,
+          "secondPercent": 17.187335355742515,
+          "percentagePoints": 0.03700249786761489
+        }
+      },
+      "margin": {
+        "first": 1006682,
+        "second": 1128130,
+        "delta": 121448
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "ce",
+      "name": "Ceará",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 3555263,
+          "second": 4036124,
+          "delta": 480861,
+          "growthPercent": 13.52532850593613,
+          "firstPercent": 63.28552351501847,
+          "secondPercent": 68.9275671399798,
+          "percentagePoints": 5.642043624961332
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 1756850,
+          "second": 1819478,
+          "delta": 62628,
+          "growthPercent": 3.5647892534934686,
+          "firstPercent": 31.27284028983516,
+          "secondPercent": 31.0724328600202,
+          "percentagePoints": -0.20040742981495896
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 5617814,
+          "second": 5855602,
+          "delta": 237788,
+          "growthPercent": 4.232749606875557,
+          "firstPercent": 95.04849951890468,
+          "secondPercent": 97.19094754834275,
+          "percentagePoints": 2.1424480294380714
+        },
+        "blank": {
+          "first": 103295,
+          "second": 56386,
+          "delta": -46909,
+          "growthPercent": -45.41265308098165,
+          "firstPercent": 1.7476610578074063,
+          "secondPercent": 0.9358916074659539,
+          "percentagePoints": -0.8117694503414524
+        },
+        "nullVotes": {
+          "first": 189362,
+          "second": 112855,
+          "delta": -76507,
+          "growthPercent": -40.40250947919857,
+          "firstPercent": 3.203839423287924,
+          "secondPercent": 1.8731608441912926,
+          "percentagePoints": -1.3306785790966316
+        },
+        "turnout": {
+          "first": 5910471,
+          "second": 6024843,
+          "delta": 114372,
+          "growthPercent": 1.935074209821857,
+          "firstPercent": 84.47699543131645,
+          "secondPercent": 86.11198337002062,
+          "percentagePoints": 1.634987938704171
+        },
+        "abstention": {
+          "first": 1086074,
+          "second": 971678,
+          "delta": -114396,
+          "growthPercent": -10.532983940320825,
+          "firstPercent": 15.523004568683543,
+          "secondPercent": 13.888016629979386,
+          "percentagePoints": -1.6349879387041568
+        }
+      },
+      "margin": {
+        "first": 1798413,
+        "second": 2216646,
+        "delta": 418233
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "rn",
+      "name": "Rio Grande do Norte",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1237963,
+          "second": 1413596,
+          "delta": 175633,
+          "growthPercent": 14.187257615938439,
+          "firstPercent": 59.750190405126126,
+          "secondPercent": 65.7179318504606,
+          "percentagePoints": 5.967741445334475
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 720493,
+          "second": 737409,
+          "delta": 16916,
+          "growthPercent": 2.3478368283938913,
+          "firstPercent": 34.774540059404465,
+          "secondPercent": 34.2820681495394,
+          "percentagePoints": -0.49247190986506695
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 2071898,
+          "second": 2151005,
+          "delta": 79107,
+          "growthPercent": 3.81809336173885,
+          "firstPercent": 95.43461969136067,
+          "secondPercent": 96.3356701359669,
+          "percentagePoints": 0.9010504446062271
+        },
+        "blank": {
+          "first": 33172,
+          "second": 19939,
+          "delta": -13233,
+          "growthPercent": -39.89207765585434,
+          "firstPercent": 1.527950316280925,
+          "secondPercent": 0.8929951008207995,
+          "percentagePoints": -0.6349552154601255
+        },
+        "nullVotes": {
+          "first": 65943,
+          "second": 61879,
+          "delta": -4064,
+          "growthPercent": -6.162898260619019,
+          "firstPercent": 3.037429992358406,
+          "secondPercent": 2.77133476321231,
+          "percentagePoints": -0.26609522914609585
+        },
+        "turnout": {
+          "first": 2171013,
+          "second": 2232823,
+          "delta": 61810,
+          "growthPercent": 2.847058032356324,
+          "firstPercent": 81.62239996992284,
+          "secondPercent": 83.94491153129086,
+          "percentagePoints": 2.3225115613680174
+        },
+        "abstention": {
+          "first": 488812,
+          "second": 427044,
+          "delta": -61768,
+          "growthPercent": -12.63635098974657,
+          "firstPercent": 18.37760003007717,
+          "secondPercent": 16.05508846870915,
+          "percentagePoints": -2.3225115613680174
+        }
+      },
+      "margin": {
+        "first": 517470,
+        "second": 676187,
+        "delta": 158717
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "pb",
+      "name": "Paraíba",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1541127,
+          "second": 1794059,
+          "delta": 252932,
+          "growthPercent": 16.41214513794126,
+          "firstPercent": 61.30795979070288,
+          "secondPercent": 67.46436708734619,
+          "percentagePoints": 6.156407296643309
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 831377,
+          "second": 865210,
+          "delta": 33833,
+          "growthPercent": 4.069513590104128,
+          "firstPercent": 33.07321699439124,
+          "secondPercent": 32.53563291265382,
+          "percentagePoints": -0.5375840817374211
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 2513747,
+          "second": 2659269,
+          "delta": 145522,
+          "growthPercent": 5.7890471873263305,
+          "firstPercent": 93.65716240162027,
+          "secondPercent": 96.9276779075362,
+          "percentagePoints": 3.270515505915924
+        },
+        "blank": {
+          "first": 52297,
+          "second": 25943,
+          "delta": -26354,
+          "growthPercent": -50.39294797024686,
+          "firstPercent": 1.9484811407502567,
+          "secondPercent": 0.9455962326320547,
+          "percentagePoints": -1.0028849081182019
+        },
+        "nullVotes": {
+          "first": 117944,
+          "second": 58348,
+          "delta": -59596,
+          "growthPercent": -50.5290646408465,
+          "firstPercent": 4.394356457629468,
+          "secondPercent": 2.1267258598317516,
+          "percentagePoints": -2.2676305977977163
+        },
+        "turnout": {
+          "first": 2683988,
+          "second": 2743560,
+          "delta": 59572,
+          "growthPercent": 2.2195330232474957,
+          "firstPercent": 82.62159111302924,
+          "secondPercent": 84.45792649627481,
+          "percentagePoints": 1.8363353832455687
+        },
+        "abstention": {
+          "first": 564543,
+          "second": 504874,
+          "delta": -59669,
+          "growthPercent": -10.569434037796944,
+          "firstPercent": 17.378408886970757,
+          "secondPercent": 15.54207350372518,
+          "percentagePoints": -1.8363353832455775
+        }
+      },
+      "margin": {
+        "first": 709750,
+        "second": 928849,
+        "delta": 219099
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "pe",
+      "name": "Pernambuco",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 3553971,
+          "second": 4117513,
+          "delta": 563542,
+          "growthPercent": 15.856685380944302,
+          "firstPercent": 63.45224447631564,
+          "secondPercent": 69.20111992016224,
+          "percentagePoints": 5.7488754438466
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 1738043,
+          "second": 1832554,
+          "delta": 94511,
+          "growthPercent": 5.437782609521168,
+          "firstPercent": 31.03084671944399,
+          "secondPercent": 30.798880079837755,
+          "percentagePoints": -0.23196663960623454
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 5601017,
+          "second": 5950067,
+          "delta": 349050,
+          "growthPercent": 6.231903956013703,
+          "firstPercent": 94.754834241292,
+          "secondPercent": 97.12068962421571,
+          "percentagePoints": 2.365855382923712
+        },
+        "blank": {
+          "first": 109491,
+          "second": 56758,
+          "delta": -52733,
+          "growthPercent": -48.16194938396763,
+          "firstPercent": 1.8523067428492543,
+          "secondPercent": 0.9264393328161239,
+          "percentagePoints": -0.9258674100331304
+        },
+        "nullVotes": {
+          "first": 200554,
+          "second": 119642,
+          "delta": -80912,
+          "growthPercent": -40.34424643736849,
+          "firstPercent": 3.392859015858741,
+          "secondPercent": 1.9528710429681577,
+          "percentagePoints": -1.4399879728905833
+        },
+        "turnout": {
+          "first": 5911062,
+          "second": 6126467,
+          "delta": 215405,
+          "growthPercent": 3.6440998250398997,
+          "firstPercent": 81.83156248053216,
+          "secondPercent": 84.81620472401048,
+          "percentagePoints": 2.9846422434783193
+        },
+        "abstention": {
+          "first": 1312388,
+          "second": 1096760,
+          "delta": -215628,
+          "growthPercent": -16.430202043907745,
+          "firstPercent": 18.168437519467844,
+          "secondPercent": 15.183795275989526,
+          "percentagePoints": -2.9846422434783175
+        }
+      },
+      "margin": {
+        "first": 1815928,
+        "second": 2284959,
+        "delta": 469031
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "al",
+      "name": "Alagoas",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 995459,
+          "second": 1152621,
+          "delta": 157162,
+          "growthPercent": 15.78789282130153,
+          "firstPercent": 54.72995113411947,
+          "secondPercent": 60.76785636144986,
+          "percentagePoints": 6.037905227330391
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 735718,
+          "second": 744140,
+          "delta": 8422,
+          "growthPercent": 1.144732084847727,
+          "firstPercent": 40.44949132861535,
+          "secondPercent": 39.232143638550134,
+          "percentagePoints": -1.2173476900652176
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 1818856,
+          "second": 1896761,
+          "delta": 77905,
+          "growthPercent": 4.28318679433666,
+          "firstPercent": 93.83149644970048,
+          "secondPercent": 97.18845561048394,
+          "percentagePoints": 3.356959160783461
+        },
+        "blank": {
+          "first": 33712,
+          "second": 16983,
+          "delta": -16729,
+          "growthPercent": -49.62327954437589,
+          "firstPercent": 1.7391412010144305,
+          "secondPercent": 0.8701947908212203,
+          "percentagePoints": -0.8689464101932102
+        },
+        "nullVotes": {
+          "first": 85860,
+          "second": 37888,
+          "delta": -47972,
+          "growthPercent": -55.872350337759144,
+          "firstPercent": 4.429362349285091,
+          "secondPercent": 1.941349598694836,
+          "percentagePoints": -2.488012750590255
+        },
+        "turnout": {
+          "first": 1938428,
+          "second": 1951632,
+          "delta": 13204,
+          "growthPercent": 0.6811705154898712,
+          "firstPercent": 79.37461048283339,
+          "secondPercent": 79.91675951780469,
+          "percentagePoints": 0.5421490349713025
+        },
+        "abstention": {
+          "first": 503698,
+          "second": 490449,
+          "delta": -13249,
+          "growthPercent": -2.630345961270444,
+          "firstPercent": 20.6253895171666,
+          "secondPercent": 20.083240482195308,
+          "percentagePoints": -0.5421490349712919
+        }
+      },
+      "margin": {
+        "first": 259741,
+        "second": 408481,
+        "delta": 148740
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "se",
+      "name": "Sergipe",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 856019,
+          "second": 989041,
+          "delta": 133022,
+          "growthPercent": 15.539608349814666,
+          "firstPercent": 62.74897448753698,
+          "secondPercent": 69.5334980789443,
+          "percentagePoints": 6.7845235914073285
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 417839,
+          "second": 433354,
+          "delta": 15515,
+          "growthPercent": 3.7131526736374534,
+          "firstPercent": 30.62895654290146,
+          "secondPercent": 30.466501921055684,
+          "percentagePoints": -0.1624546218457752
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 1364196,
+          "second": 1422395,
+          "delta": 58199,
+          "growthPercent": 4.266175828106811,
+          "firstPercent": 94.79626595287829,
+          "secondPercent": 96.98198422400844,
+          "percentagePoints": 2.185718271130156
+        },
+        "blank": {
+          "first": 24859,
+          "second": 13135,
+          "delta": -11724,
+          "growthPercent": -47.16199364415302,
+          "firstPercent": 1.7274206751248367,
+          "secondPercent": 0.8955728632217851,
+          "percentagePoints": -0.8318478119030516
+        },
+        "nullVotes": {
+          "first": 50027,
+          "second": 31129,
+          "delta": -18898,
+          "growthPercent": -37.7756011753653,
+          "firstPercent": 3.4763133719968704,
+          "secondPercent": 2.1224429127697713,
+          "percentagePoints": -1.3538704592270991
+        },
+        "turnout": {
+          "first": 1439082,
+          "second": 1466659,
+          "delta": 27577,
+          "growthPercent": 1.9162910800079493,
+          "firstPercent": 82.69944573265867,
+          "secondPercent": 84.28624217211379,
+          "percentagePoints": 1.5867964394551137
+        },
+        "abstention": {
+          "first": 301053,
+          "second": 273434,
+          "delta": -27619,
+          "growthPercent": -9.174132129558583,
+          "firstPercent": 17.30055426734133,
+          "secondPercent": 15.71375782788621,
+          "percentagePoints": -1.586796439455119
+        }
+      },
+      "margin": {
+        "first": 438180,
+        "second": 555687,
+        "delta": 117507
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "ba",
+      "name": "Bahia",
+      "region": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 5664771,
+          "second": 6485258,
+          "delta": 820487,
+          "growthPercent": 14.484027686203028,
+          "firstPercent": 66.17498166826337,
+          "secondPercent": 71.31344238449469,
+          "percentagePoints": 5.138460716231322
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 2442585,
+          "second": 2608761,
+          "delta": 166176,
+          "growthPercent": 6.803284225523369,
+          "firstPercent": 28.533901476012907,
+          "secondPercent": 28.686557615505308,
+          "percentagePoints": 0.1526561394924002
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 8560291,
+          "second": 9094019,
+          "delta": 533728,
+          "growthPercent": 6.234928228491298,
+          "firstPercent": 94.55122884253458,
+          "secondPercent": 96.51850601042428,
+          "percentagePoints": 1.9672771678896908
+        },
+        "blank": {
+          "first": 154936,
+          "second": 92721,
+          "delta": -62215,
+          "growthPercent": -40.155289926163064,
+          "firstPercent": 1.7113190651984773,
+          "secondPercent": 0.9840855177224227,
+          "percentagePoints": -0.7272335474760546
+        },
+        "nullVotes": {
+          "first": 338374,
+          "second": 235307,
+          "delta": -103067,
+          "growthPercent": -30.459491568501125,
+          "firstPercent": 3.737452092266933,
+          "secondPercent": 2.497408471853303,
+          "percentagePoints": -1.2400436204136298
+        },
+        "turnout": {
+          "first": 9053601,
+          "second": 9422047,
+          "delta": 368446,
+          "growthPercent": 4.0696072203756275,
+          "firstPercent": 80.03004927536642,
+          "secondPercent": 83.28593460327691,
+          "percentagePoints": 3.255885327910491
+        },
+        "abstention": {
+          "first": 2259151,
+          "second": 1890844,
+          "delta": -368307,
+          "growthPercent": -16.30289431737852,
+          "firstPercent": 19.96995072463358,
+          "secondPercent": 16.714065396723083,
+          "percentagePoints": -3.255885327910498
+        }
+      },
+      "margin": {
+        "first": 3222186,
+        "second": 3876497,
+        "delta": 654311
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "mg",
+      "name": "Minas Gerais",
+      "region": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 5188936,
+          "second": 6351099,
+          "delta": 1162163,
+          "growthPercent": 22.39694226330793,
+          "firstPercent": 43.32693872489977,
+          "secondPercent": 50.43402683340632,
+          "percentagePoints": 7.107088108506552
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 5777548,
+          "second": 6241786,
+          "delta": 464238,
+          "growthPercent": 8.035208015580311,
+          "firstPercent": 48.2417721429147,
+          "secondPercent": 49.56597316659367,
+          "percentagePoints": 1.3242010236789739
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 11976235,
+          "second": 12592885,
+          "delta": 616650,
+          "growthPercent": 5.148947060574546,
+          "firstPercent": 94.76913296332738,
+          "secondPercent": 96.54008757760056,
+          "percentagePoints": 1.7709546142731796
+        },
+        "blank": {
+          "first": 268302,
+          "second": 164141,
+          "delta": -104161,
+          "growthPercent": -38.822297262040536,
+          "firstPercent": 2.123100282545112,
+          "secondPercent": 1.2583444155231254,
+          "percentagePoints": -0.8647558670219868
+        },
+        "nullVotes": {
+          "first": 392737,
+          "second": 287177,
+          "delta": -105560,
+          "growthPercent": -26.87803797452239,
+          "firstPercent": 3.107766754127512,
+          "secondPercent": 2.201568006876311,
+          "percentagePoints": -0.9061987472512008
+        },
+        "turnout": {
+          "first": 12637274,
+          "second": 13044203,
+          "delta": 406929,
+          "growthPercent": 3.220069454852368,
+          "firstPercent": 77.18657992867497,
+          "secondPercent": 79.67315093246187,
+          "percentagePoints": 2.486571003786892
+        },
+        "abstention": {
+          "first": 3735098,
+          "second": 3327941,
+          "delta": -407157,
+          "growthPercent": -10.900838478669101,
+          "firstPercent": 22.813420071325037,
+          "secondPercent": 20.32684906753813,
+          "percentagePoints": -2.4865710037869064
+        }
+      },
+      "margin": {
+        "first": -588612,
+        "second": 109313,
+        "delta": 697925
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "13"
+    },
+    {
+      "uf": "es",
+      "name": "Espírito Santo",
+      "region": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 850028,
+          "second": 1001965,
+          "delta": 151937,
+          "growthPercent": 17.87435237427473,
+          "firstPercent": 37.76093054083422,
+          "secondPercent": 43.63067822818423,
+          "percentagePoints": 5.869747687350014
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 1233194,
+          "second": 1294504,
+          "delta": 61310,
+          "growthPercent": 4.971642742342243,
+          "firstPercent": 54.782375377485806,
+          "secondPercent": 56.36932177181577,
+          "percentagePoints": 1.5869463943299635
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 2251078,
+          "second": 2296469,
+          "delta": 45391,
+          "growthPercent": 2.0164116925313116,
+          "firstPercent": 95.69762468955678,
+          "secondPercent": 95.32025797625283,
+          "percentagePoints": -0.37736671330394245
+        },
+        "blank": {
+          "first": 43211,
+          "second": 33080,
+          "delta": -10131,
+          "growthPercent": -23.445418990534815,
+          "firstPercent": 1.8369821305438718,
+          "secondPercent": 1.3730619197796459,
+          "percentagePoints": -0.46392021076422596
+        },
+        "nullVotes": {
+          "first": 57993,
+          "second": 79665,
+          "delta": 21672,
+          "growthPercent": 37.370027417102065,
+          "firstPercent": 2.4653931798993485,
+          "secondPercent": 3.3066801039675178,
+          "percentagePoints": 0.8412869240681693
+        },
+        "turnout": {
+          "first": 2352282,
+          "second": 2409214,
+          "delta": 56932,
+          "growthPercent": 2.4202880436954413,
+          "firstPercent": 78.62824862534053,
+          "secondPercent": 80.5349129120195,
+          "percentagePoints": 1.9066642866789607
+        },
+        "abstention": {
+          "first": 639368,
+          "second": 582301,
+          "delta": -57067,
+          "growthPercent": -8.925532713554635,
+          "firstPercent": 21.37175137465947,
+          "secondPercent": 19.465087087980503,
+          "percentagePoints": -1.9066642866789678
+        }
+      },
+      "margin": {
+        "first": -383166,
+        "second": -292539,
+        "delta": 90627
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "rj",
+      "name": "Rio de Janeiro",
+      "region": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 3693021,
+          "second": 4565393,
+          "delta": 872372,
+          "growthPercent": 23.622178157123937,
+          "firstPercent": 39.414506334247626,
+          "secondPercent": 46.899457656774004,
+          "percentagePoints": 7.484951322526378
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 4966844,
+          "second": 5169033,
+          "delta": 202189,
+          "growthPercent": 4.070774117326818,
+          "firstPercent": 53.00963744837082,
+          "secondPercent": 53.10054234322599,
+          "percentagePoints": 0.09090489485517139
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 9369700,
+          "second": 9734426,
+          "delta": 364726,
+          "growthPercent": 3.8926112895823777,
+          "firstPercent": 95.02929166326058,
+          "secondPercent": 96.59613261252922,
+          "percentagePoints": 1.566840949268638
+        },
+        "blank": {
+          "first": 201979,
+          "second": 111682,
+          "delta": -90297,
+          "growthPercent": -44.70613281578778,
+          "firstPercent": 2.0485096962393365,
+          "secondPercent": 1.1082368166785068,
+          "percentagePoints": -0.9402728795608297
+        },
+        "nullVotes": {
+          "first": 288123,
+          "second": 231341,
+          "delta": -56782,
+          "growthPercent": -19.707555453747183,
+          "firstPercent": 2.922198640500083,
+          "secondPercent": 2.295630570792271,
+          "percentagePoints": -0.6265680697078122
+        },
+        "turnout": {
+          "first": 9859802,
+          "second": 10077449,
+          "delta": 217647,
+          "growthPercent": 2.2074175526039976,
+          "firstPercent": 76.68433604653045,
+          "secondPercent": 78.37782322975664,
+          "percentagePoints": 1.6934871832261962
+        },
+        "abstention": {
+          "first": 2997846,
+          "second": 2780077,
+          "delta": -217769,
+          "growthPercent": -7.264182349593675,
+          "firstPercent": 23.315663953469564,
+          "secondPercent": 21.622176770243357,
+          "percentagePoints": -1.6934871832262068
+        }
+      },
+      "margin": {
+        "first": -1273823,
+        "second": -603640,
+        "delta": 670183
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "sp",
+      "name": "São Paulo",
+      "region": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 9505413,
+          "second": 12119274,
+          "delta": 2613861,
+          "growthPercent": 27.49865786999471,
+          "firstPercent": 38.200509843126305,
+          "secondPercent": 46.15380221195065,
+          "percentagePoints": 7.953292368824343
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 12922023,
+          "second": 14139178,
+          "delta": 1217155,
+          "growthPercent": 9.419229481328117,
+          "firstPercent": 51.93123821180674,
+          "secondPercent": 53.846197788049345,
+          "percentagePoints": 1.9149595762426017
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 24882948,
+          "second": 26258452,
+          "delta": 1375504,
+          "growthPercent": 5.527898060953228,
+          "firstPercent": 94.13951093810864,
+          "secondPercent": 95.95848092935675,
+          "percentagePoints": 1.8189699912481103
+        },
+        "blank": {
+          "first": 632801,
+          "second": 389606,
+          "delta": -243195,
+          "growthPercent": -38.43151322453662,
+          "firstPercent": 2.394072304501303,
+          "secondPercent": 1.4237701415514887,
+          "percentagePoints": -0.9703021629498141
+        },
+        "nullVotes": {
+          "first": 916243,
+          "second": 716331,
+          "delta": -199912,
+          "growthPercent": -21.818666008908117,
+          "firstPercent": 3.4664167573900597,
+          "secondPercent": 2.6177489290917477,
+          "percentagePoints": -0.848667828298312
+        },
+        "turnout": {
+          "first": 26431992,
+          "second": 27364389,
+          "delta": 932397,
+          "growthPercent": 3.5275320906574126,
+          "firstPercent": 77.4611718139248,
+          "secondPercent": 80.19199679189684,
+          "percentagePoints": 2.730824977972034
+        },
+        "abstention": {
+          "first": 7690900,
+          "second": 6759202,
+          "delta": -931698,
+          "growthPercent": -12.114290915237488,
+          "firstPercent": 22.538828186075204,
+          "secondPercent": 19.808003208103155,
+          "percentagePoints": -2.7308249779720484
+        }
+      },
+      "margin": {
+        "first": -3416610,
+        "second": -2019904,
+        "delta": 1396706
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "pr",
+      "name": "Paraná",
+      "region": "Sul",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 2054597,
+          "second": 2566504,
+          "delta": 511907,
+          "growthPercent": 24.91520234868444,
+          "firstPercent": 31.20001797959468,
+          "secondPercent": 37.42378915675651,
+          "percentagePoints": 6.223771177161833
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 3945345,
+          "second": 4291444,
+          "delta": 346099,
+          "growthPercent": 8.772338033809463,
+          "firstPercent": 59.91191213444971,
+          "secondPercent": 62.57621084324349,
+          "percentagePoints": 2.6642987087937797
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 6585243,
+          "second": 6857948,
+          "delta": 272705,
+          "growthPercent": 4.141153181439167,
+          "firstPercent": 96.2549790198199,
+          "secondPercent": 97.14716916130533,
+          "percentagePoints": 0.892190141485429
+        },
+        "blank": {
+          "first": 122499,
+          "second": 82572,
+          "delta": -39927,
+          "growthPercent": -32.59373545906497,
+          "firstPercent": 1.7905396467448382,
+          "secondPercent": 1.1696845837832692,
+          "percentagePoints": -0.620855062961569
+        },
+        "nullVotes": {
+          "first": 133715,
+          "second": 118819,
+          "delta": -14896,
+          "growthPercent": -11.14011143102868,
+          "firstPercent": 1.9544813334352609,
+          "secondPercent": 1.6831462549114016,
+          "percentagePoints": -0.2713350785238593
+        },
+        "turnout": {
+          "first": 6841457,
+          "second": 7059339,
+          "delta": 217882,
+          "growthPercent": 3.1847309717798415,
+          "firstPercent": 79.42569572946775,
+          "secondPercent": 81.95546638419955,
+          "percentagePoints": 2.5297706547318057
+        },
+        "abstention": {
+          "first": 1772200,
+          "second": 1554289,
+          "delta": -217911,
+          "growthPercent": -12.29607267802731,
+          "firstPercent": 20.57430427053225,
+          "secondPercent": 18.04453361580045,
+          "percentagePoints": -2.5297706547317986
+        }
+      },
+      "margin": {
+        "first": -1890748,
+        "second": -1724940,
+        "delta": 165808
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "sc",
+      "name": "Santa Catarina",
+      "region": "Sul",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1127168,
+          "second": 1418314,
+          "delta": 291146,
+          "growthPercent": 25.82986741994095,
+          "firstPercent": 25.04318583606779,
+          "secondPercent": 30.577754972905442,
+          "percentagePoints": 5.5345691368376535
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 3000020,
+          "second": 3220071,
+          "delta": 220051,
+          "growthPercent": 7.33498443343711,
+          "firstPercent": 66.6538247820379,
+          "secondPercent": 69.42224502709456,
+          "percentagePoints": 2.76842024505666
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 4500897,
+          "second": 4638385,
+          "delta": 137488,
+          "growthPercent": 3.054679989344346,
+          "firstPercent": 96.83182094244195,
+          "secondPercent": 97.39793961031039,
+          "percentagePoints": 0.5661186678684373
+        },
+        "blank": {
+          "first": 69007,
+          "second": 48674,
+          "delta": -20333,
+          "growthPercent": -29.465126726274143,
+          "firstPercent": 1.4846092829440645,
+          "secondPercent": 1.0220685244093035,
+          "percentagePoints": -0.46254075853476095
+        },
+        "nullVotes": {
+          "first": 78255,
+          "second": 75244,
+          "delta": -3011,
+          "growthPercent": -3.8476774646987413,
+          "firstPercent": 1.6835697746139924,
+          "secondPercent": 1.5799918652803064,
+          "percentagePoints": -0.10357790933368594
+        },
+        "turnout": {
+          "first": 4648159,
+          "second": 4762303,
+          "delta": 114144,
+          "growthPercent": 2.4556819162167214,
+          "firstPercent": 81.05391243512466,
+          "secondPercent": 83.04381738706925,
+          "percentagePoints": 1.9899049519445953
+        },
+        "abstention": {
+          "first": 1086492,
+          "second": 972384,
+          "delta": -114108,
+          "growthPercent": -10.50242431605571,
+          "firstPercent": 18.946087564875352,
+          "secondPercent": 16.956182612930746,
+          "percentagePoints": -1.989904951944606
+        }
+      },
+      "margin": {
+        "first": -1872852,
+        "second": -1801757,
+        "delta": 71095
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "rs",
+      "name": "Rio Grande do Sul",
+      "region": "Sul",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 2294759,
+          "second": 2824552,
+          "delta": 529793,
+          "growthPercent": 23.087086704965532,
+          "firstPercent": 35.726958829191005,
+          "secondPercent": 42.16422622717359,
+          "percentagePoints": 6.437267397982588
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 3573783,
+          "second": 3874378,
+          "delta": 300595,
+          "growthPercent": 8.411115056510146,
+          "firstPercent": 55.640003200973496,
+          "secondPercent": 57.83577377282641,
+          "percentagePoints": 2.1957705718529112
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 6423046,
+          "second": 6698930,
+          "delta": 275884,
+          "growthPercent": 4.29522067878698,
+          "firstPercent": 95.82483887951236,
+          "secondPercent": 97.23195906664472,
+          "percentagePoints": 1.4071201871323638
+        },
+        "blank": {
+          "first": 148339,
+          "second": 89463,
+          "delta": -58876,
+          "growthPercent": -39.6901691396059,
+          "firstPercent": 2.2130560445227987,
+          "secondPercent": 1.2985152485515203,
+          "percentagePoints": -0.9145407959712784
+        },
+        "nullVotes": {
+          "first": 131518,
+          "second": 101245,
+          "delta": -30273,
+          "growthPercent": -23.018142003375964,
+          "firstPercent": 1.962105075964847,
+          "secondPercent": 1.4695256848037588,
+          "percentagePoints": -0.4925793911610883
+        },
+        "turnout": {
+          "first": 6702903,
+          "second": 6889638,
+          "delta": 186735,
+          "growthPercent": 2.785882475100714,
+          "firstPercent": 78.6490772415986,
+          "secondPercent": 80.84230135510082,
+          "percentagePoints": 2.193224113502211
+        },
+        "abstention": {
+          "first": 1819642,
+          "second": 1632680,
+          "delta": -186962,
+          "growthPercent": -10.274658421821435,
+          "firstPercent": 21.350922758401392,
+          "secondPercent": 19.15769864489919,
+          "percentagePoints": -2.1932241135022004
+        }
+      },
+      "margin": {
+        "first": -1279024,
+        "second": -1049826,
+        "delta": 229198
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "ms",
+      "name": "Mato Grosso do Sul",
+      "region": "Centro-Oeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 516855,
+          "second": 628973,
+          "delta": 112118,
+          "growthPercent": 21.692350852753673,
+          "firstPercent": 34.68178420402099,
+          "secondPercent": 40.399970453443295,
+          "percentagePoints": 5.718186249422303
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 873351,
+          "second": 927892,
+          "delta": 54541,
+          "growthPercent": 6.2450263410702,
+          "firstPercent": 58.60322704891302,
+          "secondPercent": 59.6000295465567,
+          "percentagePoints": 0.996802497643678
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 1490278,
+          "second": 1556865,
+          "delta": 66587,
+          "growthPercent": 4.468092530386948,
+          "firstPercent": 96.69469640933805,
+          "secondPercent": 97.64214843896994,
+          "percentagePoints": 0.94745202963189
+        },
+        "blank": {
+          "first": 21270,
+          "second": 14958,
+          "delta": -6312,
+          "growthPercent": -29.675599435825106,
+          "firstPercent": 1.38007552458442,
+          "secondPercent": 0.9381232517592163,
+          "percentagePoints": -0.4419522728252038
+        },
+        "nullVotes": {
+          "first": 29672,
+          "second": 22637,
+          "delta": -7035,
+          "growthPercent": -23.709220814235643,
+          "firstPercent": 1.925228066077523,
+          "secondPercent": 1.4197283092708504,
+          "percentagePoints": -0.5054997568066726
+        },
+        "turnout": {
+          "first": 1541220,
+          "second": 1594460,
+          "delta": 53240,
+          "growthPercent": 3.454406249594477,
+          "firstPercent": 76.13105911293549,
+          "secondPercent": 78.76066284107631,
+          "percentagePoints": 2.6296037281408218
+        },
+        "abstention": {
+          "first": 483210,
+          "second": 429977,
+          "delta": -53233,
+          "growthPercent": -11.01653525382339,
+          "firstPercent": 23.868940887064507,
+          "secondPercent": 21.23933715892369,
+          "percentagePoints": -2.629603728140818
+        }
+      },
+      "margin": {
+        "first": -356496,
+        "second": -298919,
+        "delta": 57577
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "mt",
+      "name": "Mato Grosso",
+      "region": "Centro-Oeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 581681,
+          "second": 694167,
+          "delta": 112486,
+          "growthPercent": 19.338090809223612,
+          "firstPercent": 29.18198474079009,
+          "secondPercent": 33.94018186387492,
+          "percentagePoints": 4.75819712308483
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 1298581,
+          "second": 1351099,
+          "delta": 52518,
+          "growthPercent": 4.044260619861218,
+          "firstPercent": 65.14768563298429,
+          "secondPercent": 66.05981813612509,
+          "percentagePoints": 0.9121325031407963
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 1993288,
+          "second": 2045266,
+          "delta": 51978,
+          "growthPercent": 2.607651277687921,
+          "firstPercent": 97.13249579827429,
+          "secondPercent": 98.07858117692417,
+          "percentagePoints": 0.9460853786498831
+        },
+        "blank": {
+          "first": 20756,
+          "second": 15431,
+          "delta": -5325,
+          "growthPercent": -25.655232222008095,
+          "firstPercent": 1.0114354186595118,
+          "secondPercent": 0.7399773849177158,
+          "percentagePoints": -0.271458033741796
+        },
+        "nullVotes": {
+          "first": 38089,
+          "second": 24637,
+          "delta": -13452,
+          "growthPercent": -35.31728320512484,
+          "firstPercent": 1.8560687830662048,
+          "secondPercent": 1.181441438158108,
+          "percentagePoints": -0.6746273449080968
+        },
+        "turnout": {
+          "first": 2052133,
+          "second": 2085334,
+          "delta": 33201,
+          "growthPercent": 1.6178775937037218,
+          "firstPercent": 77.7971120641777,
+          "secondPercent": 79.05343649196949,
+          "percentagePoints": 1.256324427791796
+        },
+        "abstention": {
+          "first": 585668,
+          "second": 552545,
+          "delta": -33123,
+          "growthPercent": -5.655593271273145,
+          "firstPercent": 22.2028879358223,
+          "secondPercent": 20.946563508030504,
+          "percentagePoints": -1.256324427791796
+        }
+      },
+      "margin": {
+        "first": -716900,
+        "second": -656932,
+        "delta": 59968
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "go",
+      "name": "Goiás",
+      "region": "Centro-Oeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 1188880,
+          "second": 1585555,
+          "delta": 396675,
+          "growthPercent": 33.36543637709441,
+          "firstPercent": 31.0589073737213,
+          "secondPercent": 40.33578663757741,
+          "percentagePoints": 9.276879263856106
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 2051888,
+          "second": 2345334,
+          "delta": 293446,
+          "growthPercent": 14.301267905460726,
+          "firstPercent": 53.60456844530168,
+          "secondPercent": 59.6642133624226,
+          "percentagePoints": 6.05964491712092
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 3827823,
+          "second": 3930889,
+          "delta": 103066,
+          "growthPercent": 2.692548741151302,
+          "firstPercent": 96.3801875673377,
+          "secondPercent": 97.12421675792136,
+          "percentagePoints": 0.7440291905836602
+        },
+        "blank": {
+          "first": 45643,
+          "second": 43214,
+          "delta": -2429,
+          "growthPercent": -5.321736082203186,
+          "firstPercent": 1.149238327147309,
+          "secondPercent": 1.0677294380423397,
+          "percentagePoints": -0.08150888910496934
+        },
+        "nullVotes": {
+          "first": 98121,
+          "second": 73177,
+          "delta": -24944,
+          "growthPercent": -25.42167324018304,
+          "firstPercent": 2.4705741055149995,
+          "secondPercent": 1.808053804036291,
+          "percentagePoints": -0.6625203014787084
+        },
+        "turnout": {
+          "first": 3971587,
+          "second": 4047280,
+          "delta": 75693,
+          "growthPercent": 1.9058628200767098,
+          "firstPercent": 78.17176745220536,
+          "secondPercent": 79.66482855137947,
+          "percentagePoints": 1.4930610991741133
+        },
+        "abstention": {
+          "first": 1109003,
+          "second": 1033105,
+          "delta": -75898,
+          "growthPercent": -6.843804750753605,
+          "firstPercent": 21.828232547794645,
+          "secondPercent": 20.335171448620528,
+          "percentagePoints": -1.493061099174117
+        }
+      },
+      "margin": {
+        "first": -863008,
+        "second": -759779,
+        "delta": 103229
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "df",
+      "name": "Distrito Federal",
+      "region": "Centro-Oeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 675627,
+          "second": 825224,
+          "delta": 149597,
+          "growthPercent": 22.141951106157688,
+          "firstPercent": 38.11055681156674,
+          "secondPercent": 45.7247089096315,
+          "percentagePoints": 7.614152098064764
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 909616,
+          "second": 979542,
+          "delta": 69926,
+          "growthPercent": 7.6874197463545055,
+          "firstPercent": 51.309335246682096,
+          "secondPercent": 54.275291090368505,
+          "percentagePoints": 2.965955843686409
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 1772808,
+          "second": 1804766,
+          "delta": 31958,
+          "growthPercent": 1.8026768832270612,
+          "firstPercent": 96.80091034380331,
+          "secondPercent": 96.60040250925985,
+          "percentagePoints": -0.20050783454345833
+        },
+        "blank": {
+          "first": 25362,
+          "second": 22386,
+          "delta": -2976,
+          "growthPercent": -11.734090371421813,
+          "firstPercent": 1.384845221896302,
+          "secondPercent": 1.1982144004110733,
+          "percentagePoints": -0.1866308214852288
+        },
+        "nullVotes": {
+          "first": 33226,
+          "second": 41128,
+          "delta": 7902,
+          "growthPercent": 23.78257990730151,
+          "firstPercent": 1.8142444343003918,
+          "secondPercent": 2.201383090329073,
+          "percentagePoints": 0.38713865602868114
+        },
+        "turnout": {
+          "first": 1831396,
+          "second": 1868280,
+          "delta": 36884,
+          "growthPercent": 2.013982775980727,
+          "firstPercent": 81.09550462290552,
+          "secondPercent": 82.70403431614501,
+          "percentagePoints": 1.6085296932394897
+        },
+        "abstention": {
+          "first": 426924,
+          "second": 390715,
+          "delta": -36209,
+          "growthPercent": -8.481369049292145,
+          "firstPercent": 18.904495377094477,
+          "secondPercent": 17.295965683854988,
+          "percentagePoints": -1.6085296932394897
+        }
+      },
+      "margin": {
+        "first": -233989,
+        "second": -154318,
+        "delta": 79671
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "uf": "zz",
+      "name": "Exterior",
+      "region": "Exterior",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 157387,
+          "second": 200154,
+          "delta": 42767,
+          "growthPercent": 27.17314644792772,
+          "firstPercent": 47.56589962584849,
+          "secondPercent": 53.85536430683625,
+          "percentagePoints": 6.289464680987763
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 143900,
+          "second": 171497,
+          "delta": 27597,
+          "growthPercent": 19.17790132036136,
+          "firstPercent": 43.489824166923555,
+          "secondPercent": 46.14463569316375,
+          "percentagePoints": 2.654811526240195
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 330882,
+          "second": 371651,
+          "delta": 40769,
+          "growthPercent": 12.321310920509426,
+          "firstPercent": 96.8153648987904,
+          "secondPercent": 97.43290609606153,
+          "percentagePoints": 0.6175411972711231
+        },
+        "blank": {
+          "first": 5816,
+          "second": 4675,
+          "delta": -1141,
+          "growthPercent": -19.618294360385143,
+          "firstPercent": 1.7017491500032185,
+          "secondPercent": 1.2256090687206214,
+          "percentagePoints": -0.4761400812825971
+        },
+        "nullVotes": {
+          "first": 5068,
+          "second": 5117,
+          "delta": 49,
+          "growthPercent": 0.9668508287292817,
+          "firstPercent": 1.482885951206381,
+          "secondPercent": 1.3414848352178437,
+          "percentagePoints": -0.14140111598853733
+        },
+        "turnout": {
+          "first": 341766,
+          "second": 381443,
+          "delta": 39677,
+          "growthPercent": 11.609405265591077,
+          "firstPercent": 37.30617796315075,
+          "secondPercent": 41.63043241001462,
+          "percentagePoints": 4.324254446863868
+        },
+        "abstention": {
+          "first": 574345,
+          "second": 534817,
+          "delta": -39528,
+          "growthPercent": -6.882274591055898,
+          "firstPercent": 62.69382203684925,
+          "secondPercent": 58.36956758998537,
+          "percentagePoints": -4.3242544468638755
+        }
+      },
+      "margin": {
+        "first": 13487,
+        "second": 28657,
+        "delta": 15170
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    }
+  ],
+  "macroregions": [
+    {
+      "name": "Norte",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 4550602,
+          "second": 5024626,
+          "delta": 474024,
+          "growthPercent": 10.416731676380401,
+          "firstPercent": 44.64915800865589,
+          "secondPercent": 50.00536913526469,
+          "percentagePoints": 5.356211126608798
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 5009437,
+          "second": 5023547,
+          "delta": 14110,
+          "growthPercent": 0.2816683791012842,
+          "firstPercent": 49.15111102825673,
+          "secondPercent": 49.99463086473531,
+          "percentagePoints": 0.8435198364785848
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 10191910,
+          "second": 10048173,
+          "delta": -143737,
+          "growthPercent": -1.410304839819033,
+          "firstPercent": 96.56008298631747,
+          "secondPercent": 97.39329133836898,
+          "percentagePoints": 0.8332083520515141
+        },
+        "blank": {
+          "first": 109407,
+          "second": 81757,
+          "delta": -27650,
+          "growthPercent": -25.27260595757127,
+          "firstPercent": 1.0365426106867148,
+          "secondPercent": 0.7924409064166225,
+          "percentagePoints": -0.24410170427009237
+        },
+        "nullVotes": {
+          "first": 253676,
+          "second": 187180,
+          "delta": -66496,
+          "growthPercent": -26.212964568977753,
+          "firstPercent": 2.4033744029958144,
+          "secondPercent": 1.8142677552143962,
+          "percentagePoints": -0.5891066477814182
+        },
+        "turnout": {
+          "first": 10554993,
+          "second": 10317110,
+          "delta": -237883,
+          "growthPercent": -2.253748533987659,
+          "firstPercent": 80.56523937738409,
+          "secondPercent": 78.75141899124759,
+          "percentagePoints": -1.8138203861364985
+        },
+        "abstention": {
+          "first": 2546182,
+          "second": 2783746,
+          "delta": 237564,
+          "growthPercent": 9.330204989274137,
+          "firstPercent": 19.43476062261591,
+          "secondPercent": 21.248581008752403,
+          "percentagePoints": 1.8138203861364914
+        }
+      },
+      "margin": {
+        "first": -458835,
+        "second": 1079,
+        "delta": 459914
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "13"
+    },
+    {
+      "name": "Nordeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 21494584,
+          "second": 24450432,
+          "delta": 2955848,
+          "growthPercent": 13.75159435511755,
+          "firstPercent": 63.77334499700517,
+          "secondPercent": 69.3685007544436,
+          "percentagePoints": 5.595155757438434
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 10398973,
+          "second": 10796736,
+          "delta": 397763,
+          "growthPercent": 3.82502195168696,
+          "firstPercent": 30.85322761973629,
+          "secondPercent": 30.63149924555641,
+          "percentagePoints": -0.22172837417988234
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 33704652,
+          "second": 35247168,
+          "delta": 1542516,
+          "growthPercent": 4.576567056678111,
+          "firstPercent": 94.91896264457408,
+          "secondPercent": 97.00441704165212,
+          "percentagePoints": 2.0854543970780384
+        },
+        "blank": {
+          "first": 586406,
+          "second": 328857,
+          "delta": -257549,
+          "growthPercent": -43.91991214278162,
+          "firstPercent": 1.6514352145975015,
+          "secondPercent": 0.9050537499939454,
+          "percentagePoints": -0.7463814646035561
+        },
+        "nullVotes": {
+          "first": 1217813,
+          "second": 759607,
+          "delta": -458206,
+          "growthPercent": -37.625316858992306,
+          "firstPercent": 3.4296021408284147,
+          "secondPercent": 2.0905292083539377,
+          "percentagePoints": -1.339072932474477
+        },
+        "turnout": {
+          "first": 35508871,
+          "second": 36335632,
+          "delta": 826761,
+          "growthPercent": 2.3283224070965254,
+          "firstPercent": 81.6085072460707,
+          "secondPercent": 83.50934380563123,
+          "percentagePoints": 1.9008365595605312
+        },
+        "abstention": {
+          "first": 8002366,
+          "second": 7175226,
+          "delta": -827140,
+          "growthPercent": -10.33619307089928,
+          "firstPercent": 18.39149275392929,
+          "secondPercent": 16.49065619436877,
+          "percentagePoints": -1.900836559560517
+        }
+      },
+      "margin": {
+        "first": 11095611,
+        "second": 13653696,
+        "delta": 2558085
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    },
+    {
+      "name": "Centro-Oeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 2963043,
+          "second": 3733919,
+          "delta": 770876,
+          "growthPercent": 26.016362233015183,
+          "firstPercent": 32.61755551976691,
+          "secondPercent": 39.987198250206205,
+          "percentagePoints": 7.3696427304392955
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 5133436,
+          "second": 5603867,
+          "delta": 470431,
+          "growthPercent": 9.164056978600687,
+          "firstPercent": 56.50951867292178,
+          "secondPercent": 60.012801749793795,
+          "percentagePoints": 3.503283076872016
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 9084197,
+          "second": 9337786,
+          "delta": 253589,
+          "growthPercent": 2.7915400777856316,
+          "firstPercent": 96.67807749744156,
+          "secondPercent": 97.31570091108676,
+          "percentagePoints": 0.6376234136452013
+        },
+        "blank": {
+          "first": 113031,
+          "second": 95989,
+          "delta": -17042,
+          "growthPercent": -15.077279684334385,
+          "firstPercent": 1.2029263321362709,
+          "secondPercent": 1.0003695538486648,
+          "percentagePoints": -0.2025567782876061
+        },
+        "nullVotes": {
+          "first": 199108,
+          "second": 161579,
+          "delta": -37529,
+          "growthPercent": -18.848564598107558,
+          "firstPercent": 2.118996170422173,
+          "secondPercent": 1.683929535064574,
+          "percentagePoints": -0.43506663535759893
+        },
+        "turnout": {
+          "first": 9396336,
+          "second": 9595354,
+          "delta": 199018,
+          "growthPercent": 2.1180383502675935,
+          "firstPercent": 78.29535541662247,
+          "secondPercent": 79.94998373563203,
+          "percentagePoints": 1.6546283190095608
+        },
+        "abstention": {
+          "first": 2604805,
+          "second": 2406342,
+          "delta": -198463,
+          "growthPercent": -7.619111603363783,
+          "firstPercent": 21.70464458337753,
+          "secondPercent": 20.05001626436797,
+          "percentagePoints": -1.6546283190095608
+        }
+      },
+      "margin": {
+        "first": -2170393,
+        "second": -1869948,
+        "delta": 300445
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "name": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 19237398,
+          "second": 24037731,
+          "delta": 4800333,
+          "growthPercent": 24.953130355778885,
+          "firstPercent": 39.68113340685237,
+          "secondPercent": 47.24189575645974,
+          "percentagePoints": 7.560762349607373
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 24899609,
+          "second": 26844501,
+          "delta": 1944892,
+          "growthPercent": 7.8109338986005765,
+          "firstPercent": 51.36062093779324,
+          "secondPercent": 52.75810424354026,
+          "percentagePoints": 1.3974833057470164
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 48479961,
+          "second": 50882232,
+          "delta": 2402271,
+          "growthPercent": 4.955183441669848,
+          "firstPercent": 94.53721674643901,
+          "secondPercent": 96.19432215611778,
+          "percentagePoints": 1.6571054096787634
+        },
+        "blank": {
+          "first": 1146293,
+          "second": 698509,
+          "delta": -447784,
+          "growthPercent": -39.06365998919997,
+          "firstPercent": 2.235301917753725,
+          "secondPercent": 1.3205513424597348,
+          "percentagePoints": -0.9147505752939904
+        },
+        "nullVotes": {
+          "first": 1655096,
+          "second": 1314514,
+          "delta": -340582,
+          "growthPercent": -20.577779174138538,
+          "firstPercent": 3.2274813358072674,
+          "secondPercent": 2.485126501422481,
+          "percentagePoints": -0.7423548343847863
+        },
+        "turnout": {
+          "first": 51281350,
+          "second": 52895255,
+          "delta": 1613905,
+          "growthPercent": 3.147157787382743,
+          "firstPercent": 77.29548353940449,
+          "secondPercent": 79.7278372000231,
+          "percentagePoints": 2.4323536606186167
+        },
+        "abstention": {
+          "first": 15063212,
+          "second": 13449521,
+          "delta": -1613691,
+          "growthPercent": -10.712794854112124,
+          "firstPercent": 22.70451646059552,
+          "secondPercent": 20.272162799976897,
+          "percentagePoints": -2.432353660618624
+        }
+      },
+      "margin": {
+        "first": -5662211,
+        "second": -2806770,
+        "delta": 2855441
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "name": "Sul",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 5476524,
+          "second": 6809370,
+          "delta": 1332846,
+          "growthPercent": 24.33744470032451,
+          "firstPercent": 31.27800458570718,
+          "secondPercent": 37.423861364356206,
+          "percentagePoints": 6.145856778649026
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 10519148,
+          "second": 11385893,
+          "delta": 866745,
+          "growthPercent": 8.239688233305586,
+          "firstPercent": 60.07788140465239,
+          "secondPercent": 62.576138635643794,
+          "percentagePoints": 2.498257230991406
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 17509186,
+          "second": 18195263,
+          "delta": 686077,
+          "growthPercent": 3.9183831846894535,
+          "firstPercent": 96.24387914614793,
+          "secondPercent": 97.242214322056,
+          "percentagePoints": 0.9983351759080676
+        },
+        "blank": {
+          "first": 339845,
+          "second": 220709,
+          "delta": -119136,
+          "growthPercent": -35.05598140328679,
+          "firstPercent": 1.8680480696488484,
+          "secondPercent": 1.179550517121223,
+          "percentagePoints": -0.6884975525276253
+        },
+        "nullVotes": {
+          "first": 343488,
+          "second": 295308,
+          "delta": -48180,
+          "growthPercent": -14.026690888764673,
+          "firstPercent": 1.8880727842032212,
+          "secondPercent": 1.5782351608227763,
+          "percentagePoints": -0.30983762338044496
+        },
+        "turnout": {
+          "first": 18192519,
+          "second": 18711280,
+          "delta": 518761,
+          "growthPercent": 2.851507259659863,
+          "firstPercent": 79.54455830746672,
+          "secondPercent": 81.81356414577594,
+          "percentagePoints": 2.2690058383092264
+        },
+        "abstention": {
+          "first": 4678334,
+          "second": 4159353,
+          "delta": -518981,
+          "growthPercent": -11.093286627248077,
+          "firstPercent": 20.455441692533284,
+          "secondPercent": 18.18643585422406,
+          "percentagePoints": -2.269005838309223
+        }
+      },
+      "margin": {
+        "first": -5042624,
+        "second": -4576523,
+        "delta": 466101
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "22"
+    },
+    {
+      "name": "Exterior",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 157387,
+          "second": 200154,
+          "delta": 42767,
+          "growthPercent": 27.17314644792772,
+          "firstPercent": 47.56589962584849,
+          "secondPercent": 53.85536430683625,
+          "percentagePoints": 6.289464680987763
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 143900,
+          "second": 171497,
+          "delta": 27597,
+          "growthPercent": 19.17790132036136,
+          "firstPercent": 43.489824166923555,
+          "secondPercent": 46.14463569316375,
+          "percentagePoints": 2.654811526240195
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 330882,
+          "second": 371651,
+          "delta": 40769,
+          "growthPercent": 12.321310920509426,
+          "firstPercent": 96.8153648987904,
+          "secondPercent": 97.43290609606153,
+          "percentagePoints": 0.6175411972711231
+        },
+        "blank": {
+          "first": 5816,
+          "second": 4675,
+          "delta": -1141,
+          "growthPercent": -19.618294360385143,
+          "firstPercent": 1.7017491500032185,
+          "secondPercent": 1.2256090687206214,
+          "percentagePoints": -0.4761400812825971
+        },
+        "nullVotes": {
+          "first": 5068,
+          "second": 5117,
+          "delta": 49,
+          "growthPercent": 0.9668508287292817,
+          "firstPercent": 1.482885951206381,
+          "secondPercent": 1.3414848352178437,
+          "percentagePoints": -0.14140111598853733
+        },
+        "turnout": {
+          "first": 341766,
+          "second": 381443,
+          "delta": 39677,
+          "growthPercent": 11.609405265591077,
+          "firstPercent": 37.30617796315075,
+          "secondPercent": 41.63043241001462,
+          "percentagePoints": 4.324254446863868
+        },
+        "abstention": {
+          "first": 574345,
+          "second": 534817,
+          "delta": -39528,
+          "growthPercent": -6.882274591055898,
+          "firstPercent": 62.69382203684925,
+          "secondPercent": 58.36956758998537,
+          "percentagePoints": -4.3242544468638755
+        }
+      },
+      "margin": {
+        "first": 13487,
+        "second": 28657,
+        "delta": 15170
+      },
+      "leaderFirst": "13",
+      "leaderSecond": "13"
+    }
+  ],
+  "leads": {
+    "1": {
+      "13": 12,
+      "22": 15
+    },
+    "2": {
+      "13": 13,
+      "22": 14
+    }
+  },
+  "flips": [
+    {
+      "uf": "mg",
+      "name": "Minas Gerais",
+      "region": "Sudeste",
+      "candidates": [
+        {
+          "number": "13",
+          "name": "Lula",
+          "first": 5188936,
+          "second": 6351099,
+          "delta": 1162163,
+          "growthPercent": 22.39694226330793,
+          "firstPercent": 43.32693872489977,
+          "secondPercent": 50.43402683340632,
+          "percentagePoints": 7.107088108506552
+        },
+        {
+          "number": "22",
+          "name": "Flávio Bolsonaro",
+          "first": 5777548,
+          "second": 6241786,
+          "delta": 464238,
+          "growthPercent": 8.035208015580311,
+          "firstPercent": 48.2417721429147,
+          "secondPercent": 49.56597316659367,
+          "percentagePoints": 1.3242010236789739
+        }
+      ],
+      "metrics": {
+        "valid": {
+          "first": 11976235,
+          "second": 12592885,
+          "delta": 616650,
+          "growthPercent": 5.148947060574546,
+          "firstPercent": 94.76913296332738,
+          "secondPercent": 96.54008757760056,
+          "percentagePoints": 1.7709546142731796
+        },
+        "blank": {
+          "first": 268302,
+          "second": 164141,
+          "delta": -104161,
+          "growthPercent": -38.822297262040536,
+          "firstPercent": 2.123100282545112,
+          "secondPercent": 1.2583444155231254,
+          "percentagePoints": -0.8647558670219868
+        },
+        "nullVotes": {
+          "first": 392737,
+          "second": 287177,
+          "delta": -105560,
+          "growthPercent": -26.87803797452239,
+          "firstPercent": 3.107766754127512,
+          "secondPercent": 2.201568006876311,
+          "percentagePoints": -0.9061987472512008
+        },
+        "turnout": {
+          "first": 12637274,
+          "second": 13044203,
+          "delta": 406929,
+          "growthPercent": 3.220069454852368,
+          "firstPercent": 77.18657992867497,
+          "secondPercent": 79.67315093246187,
+          "percentagePoints": 2.486571003786892
+        },
+        "abstention": {
+          "first": 3735098,
+          "second": 3327941,
+          "delta": -407157,
+          "growthPercent": -10.900838478669101,
+          "firstPercent": 22.813420071325037,
+          "secondPercent": 20.32684906753813,
+          "percentagePoints": -2.4865710037869064
+        }
+      },
+      "margin": {
+        "first": -588612,
+        "second": 109313,
+        "delta": 697925
+      },
+      "leaderFirst": "22",
+      "leaderSecond": "13"
+    }
+  ],
+  "accounting": {
+    "otherFirstVotes": 9316747,
+    "finalistGain": 14098232,
+    "validVoteChange": 4781485
+  },
+  "rounds": {
+    "1": {
+      "updated": "05/10/2026 · 12:51:05",
+      "id": "2837531",
+      "sections": 499248
+    },
+    "2": {
+      "updated": "25/10/2026 · 23:26:38",
+      "id": "4241309",
+      "sections": 499248
+    }
+  }
+}

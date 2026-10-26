@@ -1,0 +1,2 @@
+# Preserva os bytes originais usados nos hashes das fontes oficiais.
+dist/relatorio/fontes/** -text -whitespace
