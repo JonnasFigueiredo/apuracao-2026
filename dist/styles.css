@@ -271,3 +271,13 @@ footer > span { margin-right:auto; }
   .fan-copy > span { font-size:7px; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; } }
+
+/* Encerramento da apuração e acesso ao estudo dos dois turnos. */
+.final-update { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:28px; margin:28px 0 8px; padding:28px; border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:16px; background:linear-gradient(115deg,var(--accent-soft),transparent 75%),var(--panel-bg); }
+.final-update .final-update-label { margin:0 0 12px; color:var(--accent); font-size:10px; font-weight:700; letter-spacing:1.4px; line-height:1.6; }
+.final-update h2 { margin:0 0 10px; font-family:'Space Grotesk',sans-serif; font-size:clamp(24px,3vw,34px); line-height:1.15; letter-spacing:-1px; }
+.final-update-copy>p:last-child { max-width:610px; margin:0; color:var(--muted); font-size:14px; line-height:1.7; }
+.final-study-link { display:flex; align-items:center; justify-content:center; gap:22px; padding:17px 22px; border-radius:10px; background:var(--accent); color:var(--accent-ink); text-decoration:none; font-size:14px; font-weight:700; white-space:nowrap; transition:filter .15s; }
+.final-study-link:hover { filter:brightness(1.08); }
+.final-study-link>span:last-child { font-size:23px; line-height:1; }
+@media(max-width:700px) { .final-update { grid-template-columns:minmax(0,1fr); gap:22px; margin-top:20px; padding:22px 20px; } .final-study-link { width:100%; } }

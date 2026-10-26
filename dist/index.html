@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101922">
   <script>try{const mode=localStorage.getItem('voto2026.fanMode');if(['lula','flavio'].includes(mode))document.documentElement.dataset.fan=mode;}catch{}</script>
-  <meta name="description" content="Apuração presidencial de 2026, mapa de lideranças por estado e modo torcida. Dados oficiais do TSE.">
-  <title>VOTO/2026 · Apuração ao vivo</title>
+  <meta name="description" content="Resultado presidencial de 2026 e estudo final dos dois turnos: ganhos de votos, participação e diferenças por estado. Dados oficiais do TSE.">
+  <title>VOTO/2026 · Resultado final e estudo dos dois turnos</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,16 @@
 <body>
   <a class="skip-link" href="#results">Ir para os resultados</a>
   <div class="shell">
-    <header class="topbar"><a class="brand" href="./" aria-label="VOTO 2026, início"><span aria-hidden="true">◉</span> VOTO<span class="brand-slash">/</span>2026</a><span class="live-pill"><i></i> AO VIVO <span>· TSE</span></span></header>
+    <header class="topbar"><a class="brand" href="./" aria-label="VOTO 2026, início"><span aria-hidden="true">◉</span> VOTO<span class="brand-slash">/</span>2026</a><span class="live-pill"><i></i> FINAL <span>· TSE</span></span></header>
     <main>
+      <section class="final-update" aria-labelledby="finalStudyTitle">
+        <div class="final-update-copy">
+          <p class="final-update-label">ATUALIZAÇÃO FINAL · APURAÇÃO CONCLUÍDA</p>
+          <h2 id="finalStudyTitle">Dois turnos. A análise completa.</h2>
+          <p>Quanto cada candidato ganhou em votos? O que mudou nos estados? Explore o estudo com os resultados finais do TSE.</p>
+        </div>
+        <a class="final-study-link" href="relatorio/"><span>Ler estudo completo</span><span aria-hidden="true">↗</span></a>
+      </section>
       <section class="page-heading"><div><p class="eyebrow">ELEIÇÕES 2026</p><h1>Presidente <span id="placeTitle">Brasil</span></h1></div><div class="fan-settings"><span class="control-label">Torcida</span><div class="fan-switch" role="group" aria-label="Modo torcida"><button type="button" data-fan-mode="neutral" aria-pressed="true">Neutro</button><button type="button" data-fan-mode="lula" aria-pressed="false"><span class="lula-text" aria-hidden="true">★</span> Lula</button><button type="button" data-fan-mode="flavio" aria-pressed="false"><span class="flavio-text" aria-hidden="true">◆</span> Flávio</button></div><span id="themeStatus" class="sr-only" aria-live="polite"></span></div></section>
 
       <section class="toolbar" aria-label="Filtros da apuração"><div class="control-group"><label for="turn">Turno</label><select id="turn"><option value="2">2º turno · 25 out</option><option value="1">1º turno · 04 out</option></select></div><div class="control-group region-control"><label for="region">Local</label><select id="region"><option value="br">Brasil</option></select></div><button id="refresh" class="refresh-button" type="button" title="Atualizar resultado agora" aria-label="Atualizar resultado agora"><span aria-hidden="true">↻</span><span class="refresh-label">Atualizar</span></button></section>
