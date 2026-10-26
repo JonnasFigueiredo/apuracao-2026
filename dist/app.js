@@ -1,4 +1,4 @@
-import { parseResult, toNumber as number } from './data.js';
+import { parseResult, formatProgress, toNumber as number } from './data.js';
 import { states, leadership, summarizeStates } from './states.js';
 import { tseClient } from './tse-client.js';
 import { initAnalytics, trackEvent } from './analytics.js';
@@ -106,7 +106,7 @@ function updateStateViews() {
       row.row.classList.toggle('stale',Boolean(entry?.stale)); row.row.setAttribute('aria-pressed',String(state.uf===selectedRegion));
       row.detail.textContent=stateDescription(state,entry);
       row.score.textContent=leader ? pct(leader.percent) : entry?.result && kind==='tie' ? 'Empate' : '—';
-      row.progress.textContent=entry?.result ? `${pct(entry.result.progress)} apurado` : '';
+      row.progress.textContent=entry?.result ? `${formatProgress(entry.result)} apurado` : '';
     }
     const path=$('brazilMap').querySelector(`[data-uf="${state.uf}"]`);
     if (path) {
@@ -133,7 +133,7 @@ function fillTooltip(state) {
   const entry=entries.get(state.uf), leader=leadership(entry?.result).leader;
   $('tooltipName').textContent=`${state.uf.toUpperCase()} · ${state.name}`;
   $('tooltipResult').textContent=leader ? `${nameOf(leader)} · ${pct(leader.percent)}${entry.stale ? ' · última parcial' : ''}` : stateDescription(state,entry);
-  $('tooltipProgress').textContent=entry?.result ? `${pct(entry.result.progress)} apurado · TSE ${entry.result.time}` : '';
+  $('tooltipProgress').textContent=entry?.result ? `${formatProgress(entry.result)} apurado · TSE ${entry.result.time}` : '';
 }
 
 function showTooltip(state,event,path) {
@@ -211,7 +211,7 @@ function render(data) {
     const bar=document.createElement('div');bar.className='bar';const fill=document.createElement('span');fill.style.width=`${Math.max(0,Math.min(100,candidate.percent))}%`;bar.append(fill);card.append(head,score,bar);return card;
   }));
   $('showAllCandidates').hidden=result.candidates.length<=2;$('showAllCandidates').textContent=$('candidates').classList.contains('expanded')?'Mostrar só os dois primeiros':`Ver outros ${result.candidates.length-2} candidatos`;
-  $('apurationPercent').textContent=pct(result.progress);$('progressValue').textContent=pct(result.progress);$('ring').style.setProperty('--progress',`${result.progress}%`);$('ring').setAttribute('aria-valuenow',result.progress.toFixed(2));
+  $('apurationPercent').textContent=formatProgress(result);$('progressValue').textContent=formatProgress(result);$('ring').style.setProperty('--progress',`${result.progress}%`);$('ring').setAttribute('aria-valuenow',String(result.progress));
   for(const [id,value] of Object.entries({sectionsCount:result.processed,totalSections:result.total,pendingSections:result.pending,validVotes:result.validVotes,blankVotes:result.blankVotes,nullVotes:result.nullVotes,turnout:result.turnout,abstention:result.abstention})) $(id).textContent=fmt(value);
   $('validVotesNote').textContent=result.final?'Final':result.processed?'Parcial':'Aguardando';
   $('blankPercent').textContent=pct(result.blankPercent);$('nullPercent').textContent=pct(result.nullPercent);$('turnoutPercent').textContent=result.turnoutPercent===null?'':`${pct(result.turnoutPercent)} do eleitorado apurado`;$('abstentionPercent').textContent=result.abstentionPercent===null?'':`${pct(result.abstentionPercent)} do eleitorado apurado`;

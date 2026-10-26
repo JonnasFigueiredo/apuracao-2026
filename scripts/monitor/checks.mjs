@@ -55,14 +55,16 @@ export function inspectOfficial(data, region, turn = '2') {
   return { region, id:data.idg, generated:`${data.dg || ''} ${data.hg || ''}`.trim(), updated:`${data.dt || data.dg || '—'} · ${data.ht || data.hg || '—'}`, final:data.and === 'f', processed, total, pending, progress, valid, blank, nullVotes, turnout, abstention, blankPercent, nullPercent, turnoutPercent, abstentionPercent, candidates, kind, leader:kind === 'waiting' || kind === 'tie' ? null : candidates[0] };
 }
 
+const progressLabel = result => (result.pending > 0 || result.processed < result.total) && result.progress >= 99.995 ? '<100%' : formatPercent(result.progress);
+
 export function compareDisplay(view, official) {
   const differences = [];
   const same = (actual, expected, label) => { if (actual !== expected) differences.push(`${label}: tela ${JSON.stringify(actual)}; TSE ${JSON.stringify(expected)}.`); };
   const main = official.get('br');
   if (!main) return ['Resultado nacional não recebido.'];
   for (const [key, value] of Object.entries({ sectionsCount:main.processed, totalSections:main.total, pendingSections:main.pending, validVotes:main.valid, blankVotes:main.blank, nullVotes:main.nullVotes, turnout:main.turnout, abstention:main.abstention })) same(view.metrics[key], formatInteger(value), key);
-  same(view.metrics.apurationPercent, formatPercent(main.progress), 'Apuração');
-  same(view.metrics.progressValue, formatPercent(main.progress), 'Barra de apuração');
+  same(view.metrics.apurationPercent, progressLabel(main), 'Apuração');
+  same(view.metrics.progressValue, progressLabel(main), 'Barra de apuração');
   same(view.metrics.blankPercent, formatPercent(main.blankPercent), 'Percentual de brancos');
   same(view.metrics.nullPercent, formatPercent(main.nullPercent), 'Percentual de nulos');
   same(view.metrics.turnoutPercent, `${formatPercent(main.turnoutPercent)} do eleitorado apurado`, 'Percentual de comparecimento');
@@ -86,7 +88,7 @@ export function compareDisplay(view, official) {
     same(row?.leader, result.kind, `Liderança da lista ${uf}`);
     same(path?.leader, result.kind, `Liderança do mapa ${uf}`);
     same(row?.percent, result.leader ? formatPercent(result.leader.percent) : result.kind === 'tie' ? 'Empate' : '—', `Percentual do líder ${uf}`);
-    same(row?.progress, `${formatPercent(result.progress)} apurado`, `Apuração ${uf}`);
+    same(row?.progress, `${progressLabel(result)} apurado`, `Apuração ${uf}`);
     if (row?.stale || path?.stale) differences.push(`${uf.toUpperCase()}: painel manteve uma parcial anterior por falha na consulta.`);
   }
   same(view.counts.lula, String(counts.lula), 'Contagem de UFs Lula');

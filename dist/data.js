@@ -3,6 +3,11 @@ export function toNumber(value) {
   return Number.isFinite(parsed) ? parsed : 0;
 }
 
+export function formatProgress(result) {
+  if ((result.pending > 0 || result.processed < result.total) && result.progress >= 99.995) return '<100%';
+  return `${result.progress.toLocaleString('pt-BR', { minimumFractionDigits:2, maximumFractionDigits:2 })}%`;
+}
+
 export function parseResult(data) {
   const cargo = data?.carg?.find(item => String(item.cd) === '1');
   if (!cargo || !data.s || !data.v) throw new Error('O arquivo do TSE veio sem os campos esperados.');

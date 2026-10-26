@@ -24,6 +24,15 @@ function viewOf(result) {
   };
 }
 
+test('monitor rejeita 100% arredondado quando ainda há seções pendentes', () => {
+  const data=fixture();data.s={ts:'499248',st:'499246',snt:'2',pstn:'99,999599397'};
+  const result=inspectOfficial(data,'br'),view=viewOf(result),official=new Map(regionCodes.map(uf=>[uf,result]));
+  assert.ok(compareDisplay(view,official).some(message=>message.startsWith('Apuração:')));
+  view.metrics.apurationPercent='<100%';view.metrics.progressValue='<100%';
+  for(const row of view.states) row.progress='<100% apurado';
+  assert.deepEqual(compareDisplay(view,official),[]);
+});
+
 test('monitor confere abstenção sem incluir eleitores de seções não instaladas', () => {
   const result = inspectOfficial(fixture(),'br');
   assert.equal(result.abstention,28);
